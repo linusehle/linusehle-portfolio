@@ -1,6 +1,6 @@
 <template>
-    <body class="bg-[#120e16]">
-        <div class="bg-[#7b15ff] flex flex-col">
+    <body class="bg-[#120e16]" style="background-image: linear-gradient(270deg, #9f55ff, #7000ff, #8b31ff);">
+        <div class="flex flex-col">
             <div class="flex justify-center my-8">
                 <span class="text-white font-bold font-mono text-3xl">Feel free to contact me!</span>
             </div>
@@ -79,9 +79,7 @@
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="pb-8">
-            <path fill="#7b15ff" fill-opacity="1" d="M0,160L60,170.7C120,181,240,203,360,208C480,213,600,203,720,218.7C840,235,960,277,1080,293.3C1200,309,1320,299,1380,293.3L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
-        </svg>
+        <img src="../assets/footer-curve.svg" class="w-full rotate-180" />
     </body>
 </template>
 
