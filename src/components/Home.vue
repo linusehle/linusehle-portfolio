@@ -231,18 +231,21 @@
                         </a>
                     </div>
                 </Tilt>
-                    <Tilt>
-                        <div class="mr-14 flex">
-                            <a href="" target="_blank">
-                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>Project Four</span>
+                <Tilt max="10" speed="400">
+                    <div class="mr-14 flex">
+                        <a href="" target="_blank">
+                            <div class="project">
+                                <div class="project-bg-four w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
+                                    <span class="font-mono">Project Four</span>
                                 </div>
-                            </a>
-                        </div>
-                    </Tilt>
-                </div>    
+                                <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#5f7183] z-0 absolute"></div>
+                            </div>
+                        </a>
+                    </div>
+                </Tilt>
             </div>       
         </div>    
+    </div>
     <div id="contact" class="bg-[#1a171e] h-screen flex flex-col w-full">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="-mb-1">
@@ -462,6 +465,12 @@ button.grow_skew_forward:hover::after {
 
 .project-bg-three {
     background: url(../assets/project-bg-three.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-bg-four {
+    background: url(../assets/project-bg-four.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
