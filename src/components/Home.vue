@@ -246,7 +246,7 @@
         </div>
         <div class="flex flex-col pb-10">
             <div class="w-full flex justify-center">
-                <form class="px-4 sm:w-[30rem] md:w-[45rem] space-y-[50px] w-full">
+                <form class="px-4 sm:w-[30rem] md:w-[45rem] space-y-[75px] w-full">
                     <div class="relative">
                         <input type="text" id="name_input" class="block leading-[40px] w-full px-2.5 pb-2.5 pt-4 sm:w-full h-12 sm:h-[75px] bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder="" />
                         <label for="name_input" class="absolute text-white text-2xl font-mono duration-300 transform -translate-y-4  top-2 z-10 origin-[0] bg-transparent px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-[-18px] peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Name</label>
