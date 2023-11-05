@@ -6,7 +6,7 @@
                 <span class="font-medium text-lg uppercase tracking-wide text-[#8b31ff]">Hi, my name is</span>
             </div>
             <div class="flex space-x-2">
-                <span class="font-bold text-6xl text-white underline decoration-[#8b31ff] decoration-[7px]">Linus</span>
+                <span class="font-bold text-6xl text-white border-b-[7px]" style="border-bottom: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-border-image: ;">Linus</span>
                 <span class="font-bold text-6xl text-white">Ehle</span>
             </div>
             <div class="mt-6">
@@ -102,7 +102,7 @@
                 <span class="font-medium text-base uppercase tracking-widest text-white">skills</span>
             </div>
             <div>
-                <span class="font-bold text-3xl text-[#8b31ff]">My Skills</span>
+                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Skills</span>
             </div>
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-semibold text-[1.65rem] text-white md:text-3xl">I like to build things with code and to always learn new things.</span>
@@ -183,7 +183,7 @@
                 <span class="font-medium text-base uppercase tracking-widest text-white">projects</span>
             </div>
             <div>
-                <span class="font-bold text-3xl text-[#8b31ff]">My Projects</span>
+                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Projects</span>
             </div>
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-semibold text-[1.65rem] text-white md:text-3">Some things I buildt with heart</span>
@@ -232,7 +232,7 @@
                 </div>
             </div>   
         </div>    
-    <div id="contact" class="bg-[#1a171e] h-screen flex flex-col">
+    <div id="contact" class="bg-[#1a171e] h-screen flex flex-col w-full">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="-mb-1">
                 <span class="font-medium text-base uppercase tracking-widest text-white">contact</span>
@@ -246,17 +246,17 @@
         </div>
         <div class="flex flex-col pb-10">
             <div class="w-full flex justify-center">
-                <form class="px-4 sm:w-[30rem] md:w-[35rem] space-y-6">
+                <form class="px-4 sm:w-[30rem] md:w-[45rem] space-y-6 w-full">
                     <div class="relative">
-                        <input type="text" id="name_input" class="block w-full px-2.5 pb-2.5 pt-4 sm:w-full h-12 sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder="" />
-                        <label for="name_input" class="absolute text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Name</label>
+                        <input type="text" id="name_input" class="block leading-[40px] w-full px-2.5 pb-2.5 pt-4 sm:w-full h-12 sm:h-[75px] bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder="" />
+                        <label for="name_input" class="absolute text-white font-mono duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Name</label>
                     </div>
                     <div class="relative">
                         <input type="email" id="name_input" class="block w-[25rem] px-2.5 pb-2.5 pt-4 sm:w-full h-12 sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder="" />
                         <label for="name_input" class="absolute text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Email</label>
                     </div>
                     <div class="relative">
-                        <textarea id="message" class="block h-auto w-[25rem] px-2.5 pb-2.5 pt-4 sm:w-full min-h-[10rem] max-h-[20rem] sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder=""></textarea>
+                        <textarea id="message" class="block h-auto w-full px-2.5 pb-2.5 pt-4 sm:w-full min-h-[10rem] max-h-[20rem] sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder=""></textarea>
                         <label for="message" class="absolute text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Message</label>
                     </div>
                 </form>
@@ -268,6 +268,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 </template>
 
