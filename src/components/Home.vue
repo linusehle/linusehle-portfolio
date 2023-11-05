@@ -262,7 +262,7 @@
                 </form>
             </div>
             <div class="flex justify-center text-white">
-                <div class="mt-10 border-[2px] border-[#7000ff] rounded-[0.4rem] px-[1.75rem] py-[0.65rem] space-x-2">
+                <div class="mt-10 border-[2px] border-[#7000ff] rounded-[0.4rem] px-[1.75rem] py-[0.65rem] space-x-2 btn-contact">
                     <span class="font-semibold font-mono text-xl">Send</span>
                     <span class="font-semibold font-mono text-xl">→</span>
                 </div>
@@ -276,6 +276,11 @@
 * {
     box-sizing: border-box;
     cursor: none;
+}
+
+.btn-contact:hover {
+    box-shadow: 0 0 1.5rem #7000ff;
+    transition: all .3s ease-in-out;
 }
 
 #progress-bar {
