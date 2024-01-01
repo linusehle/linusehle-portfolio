@@ -1,5 +1,9 @@
+<script setup>
+import { RouterView} from 'vue-router';
+import Navbar from './components/Navbar.vue'
+</script>
+
 <template>
-  <div>
-    <hi class="underline">nigga</hi>
-  </div>
+  <Navbar />
+  <router-view></router-view>
 </template>
