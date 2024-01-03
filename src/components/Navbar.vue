@@ -16,7 +16,7 @@
               <router-link class="text-lg font-semibold leading-6" :class="{'text-[#0ad87a]': $route.path === '/'}" to="/">Home</router-link>
             </li>
             <li>
-              <span class="text-lg font-semibold leading-6 hover:text-[#0ad87a] cursor-pointer transition">About me</span>
+              <span class="text-lg font-semibold leading-6 hover:text-[#0ad87a] cursor-pointer transition" v-on:click="about_scroll">About me</span>
             </li>
             <li>
               <span class="text-lg font-semibold leading-6 hover:text-[#0ad87a] cursor-pointer transition">Portfolio</span>
@@ -36,5 +36,11 @@ export default {
       isOpen: false,
     }
   },
+}
+</script>
+
+<script setup>
+function about_scroll (event) {
+  document.getElementById("about").scrollIntoView({behavior: 'smooth'});
 }
 </script>
