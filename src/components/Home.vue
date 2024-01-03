@@ -30,7 +30,7 @@
                     Here is my tech stack.
                 </p>
             </div>
-            <div class="grid px-8 max-w-7xl mx-auto">
+            <div class="grid px-8 max-w-7xl mx-auto grid-rows-1">
                 <div>
                     <img class="h-20" src="../assets/480px-HTML5_Badge.svg.png" />
                 </div>
@@ -42,6 +42,9 @@
                 </div>
                 <div>
                     <img class="h-20" src="../assets/Git-logo-orange.svg" />
+                </div>
+                <div>
+                    <img class="h-20" src="" />
                 </div>
             </div>
         </div>
