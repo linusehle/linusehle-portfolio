@@ -1,6 +1,6 @@
 <template>
     <body class="bg-[#1e1e2e]">
-            <div class="bg-[#1e1e2e] text-white flex justify-center mx-auto max-w-6xl pt-8 space-x-12">
+            <div class="bg-[#1e1e2e] text-white flex flex-col md:flex-row justify-center mx-auto max-w-6xl pt-8 space-x-12 h-full">
                 <div class="mx-auto pl-4">
                     <div>
                         <h2 class="text-2xl font-semibold tracking-tight">Linus Ehle</h2>
@@ -74,7 +74,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="grid mt-6 max-w-2xl">
+                <div class="grid mt-6 max-w-2xl pb-12">
                     <h2 class="text-xl font-semibold tracking-tight text-[#ABE9B3]">> Links</h2> 
                     <ul class="mt-6 space-y-4">
                         <li class="flex space-x-4 items-center">
@@ -123,7 +123,7 @@
                     <h2 class="text-2xl font-semibold tracking-tight">Projects</h2>
                     <p class="text-zinc-400 font-semibold">Some of my best works</p>
                 </div>
-                <div class="grid mt-6 space-y-8">
+                <div class="grid mx-auto max-w-3xl mt-6 space-y-8 justify-center pb-8 pr-4">
                     <div class="bg-[#1a1826] rounded-xl px-8 py-6">
                         <h2 class="text-xl font-semibold tracking-tight text-[#ABE9B3]">LSS-Scripts</h2>
                         <p class="text-zinc-400">These are Scripts to modifiy the game Lss</p>
