@@ -16,7 +16,7 @@
               <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/'}" to="/">Home</router-link>
             </li>
             <li>
-              <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/about'}" to="/">About</router-link>
+              <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/about'}" to="/about">About</router-link>
             </li>
             <li>
               <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/projects'}" to="/">Projects</router-link>
