@@ -126,6 +126,7 @@
             <div class="grid px-4 text-center">
                 <span class="font-bold leading-6 text-4xl text-[#6D83F2]">Skillset</span>
             </div>
+            <div></div>
         </div>
     </div>
 </template>
