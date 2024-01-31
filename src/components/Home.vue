@@ -19,7 +19,7 @@
             </div>
             <div class="flex space-x-4 pl-4 pr-4 mt-12 max-w-lg mx-auto md:mx-[125px]">
                 <div>
-                    <a href="" target="_blank">
+                    <a href="https://github.com/linusehle" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="h-8 hover:text-[#6c63ff]">
                             <path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6
                             0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3
