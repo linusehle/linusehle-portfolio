@@ -11,12 +11,12 @@
         </div>
       </div>
       <nav :class="isOpen ? 'flex' : 'hidden'" class="sm:flex">
-        <ul class="flex text-center w-full flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-8 sm:justify-center sm:items-center pt-8 pb-4">
+        <ul class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-8 justify-start sm:items-center pt-8 pb-4">
             <li>
               <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/'}" to="/">Home</router-link>
             </li>
             <li>
-              <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/about'}" to="/about">About</router-link>
+              <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/about'}" to="/">About</router-link>
             </li>
             <li>
               <router-link class="text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-[#6c63ff]': $route.path === '/projects'}" to="/">Projects</router-link>
