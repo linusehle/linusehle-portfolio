@@ -103,6 +103,65 @@
                 </div>
             </div>            
         </div>
+        <div class="flex justify-center">
+            <div class="h-[250px] w-0 border-dashed border-4 border-[#1373e6] mt-[100px]"></div>
+        </div>
+    </div>
+    <div class="flex flex-col justify-center pt-6">
+        <div class="flex flex-col text-center">
+            <span class="text-4xl font-semibold">Browse my recent</span>
+            <span class="text-6xl font-bold text-[#1373e6]">Projects</span>
+        </div>
+        <div class="flex justify-center space-x-12 mt-12">
+            <div class="border border-black rounded-3xl p-6 flex flex-col">
+                <div>
+                    <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
+                </div>
+                <div class="flex justify-center mt-6">
+                    <span class="text-2xl font-bold">Project One</span>
+                </div>
+                <div class="flex justify-center space-x-4 mt-6">
+                    <div class="rounded-3xl border border-black p-4">
+                        <span class="font-semibold">Github</span>
+                    </div>
+                    <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
+                        <span class="font-semibold">Visit</span>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-black rounded-3xl p-6 flex flex-col">
+                <div>
+                    <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
+                </div>
+                <div class="flex justify-center mt-6">
+                    <span class="text-2xl font-bold">Project Two</span>
+                </div>
+                <div class="flex justify-center space-x-4 mt-6">
+                    <div class="rounded-3xl border border-black p-4">
+                        <span class="font-semibold">Github</span>
+                    </div>
+                    <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
+                        <span class="font-semibold">Visit</span>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-black rounded-3xl p-6 flex flex-col">
+                <div>
+                    <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
+                </div>
+                <div class="flex justify-center mt-6">
+                    <span class="text-2xl font-bold">Project Three</span>
+                </div>
+                <div class="flex justify-center space-x-4 mt-6">
+                    <div class="rounded-3xl border border-black p-4">
+                        <span class="font-semibold">Github</span>
+                    </div>
+                    <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
+                        <span class="font-semibold">Visit</span>
+                    </div>
+                </div>
+            </div>
+        </div>     
     </div>
 </template>
 
