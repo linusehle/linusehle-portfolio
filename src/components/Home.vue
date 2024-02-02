@@ -39,25 +39,67 @@
             <span class="text-4xl font-semibold">Explore my</span>
             <span class="text-6xl font-bold text-[#1373e6]">Experience</span>
         </div>
-        <div class="flex justify-center space-x-6">
+        <div class="flex justify-center space-x-8 pt-10">
             <div class="border border-black p-6 rounded-3xl">
                 <div class="text-center">
                     <span class="text-2xl font-semibold">Frontend Development</span>
                 </div>
-                <div class="grid grid-cols-2">
-                    <div class="flex flex-col">
-                        <span class="text-xl font-bold">Html</span>
-                        <span class="text-xl ">Experienced</span>
+                <div class="flex flex-col space-y-10 mt-6">
+                    <div class="flex space-x-32">
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">Html</span>
+                            <span class="text-xl ">Experienced</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">Css</span>
+                            <span class="text-xl">Experienced</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">TailwindCss</span>
+                            <span class="text-xl">Experienced</span>
+                        </div>
                     </div>
-                    <div class="flex flex-col">
-                        <span class="text-xl font-bold">Css</span>
-                        <span class="text-xl">Experienced</span>
+                    <div class="flex space-x-32">
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">Javascript</span>
+                            <span class="text-xl">Experienced</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">VueJS</span>
+                            <span class="text-xl">Intermediate</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">ReactJS</span>
+                            <span class="text-xl">Intermediate</span>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="border border-black p-6 rounded-3xl">
                 <div class="text-center">
-                    <span class="text-2xl font-semibold">Frontend Development</span>
+                    <span class="text-2xl font-semibold">Other</span>
+                </div>
+                <div class="flex flex-col space-y-10 mt-6">
+                    <div class="flex space-x-32">
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">Java</span>
+                            <span class="text-xl ">Intermediate</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">Rust</span>
+                            <span class="text-xl">Intermediate</span>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">C/C++</span>
+                            <span class="text-xl">Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-32">
+                        <div class="flex flex-col">
+                            <span class="text-xl font-bold">Github/Git</span>
+                            <span class="text-xl">Experienced</span>
+                        </div>
+                    </div>
                 </div>
             </div>            
         </div>
