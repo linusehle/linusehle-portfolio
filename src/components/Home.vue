@@ -112,9 +112,9 @@
             <span class="text-4xl font-semibold">Browse my recent</span>
             <span class="text-6xl font-bold text-[#1373e6]">Projects</span>
         </div>
-        <div class="flex justify-center space-x-12 mt-12">
-            <div class="border border-black rounded-3xl p-6 flex flex-col">
-                <div>
+        <div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row justify-center lg:space-x-12 mt-12">
+            <div class="border border-black rounded-3xl p-6 mx-6 flex flex-col">
+                <div class="flex justify-center">
                     <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
                 </div>
                 <div class="flex justify-center mt-6">
@@ -126,15 +126,15 @@
                             <span class="font-semibold">Github</span>
                         </a>
                     </div>
-                    <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
+                    <div class="rounded-3xl border border-black p-4 mx-6 w-[75px] text-center">
                         <a href="" target="_blank">
                             <span class="font-semibold">Visit</span>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="border border-black rounded-3xl p-6 flex flex-col">
-                <div>
+            <div class="border border-black rounded-3xl p-6 mx-6 flex flex-col">
+                <div class="flex justify-center">
                     <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
                 </div>
                 <div class="flex justify-center mt-6">
@@ -153,8 +153,8 @@
                     </div>
                 </div>
             </div>
-            <div class="border border-black rounded-3xl p-6 flex flex-col">
-                <div>
+            <div class="border border-black rounded-3xl p-6 mx-6 flex flex-col">
+                <div class="flex justify-center">
                     <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
                 </div>
                 <div class="flex justify-center mt-6">
