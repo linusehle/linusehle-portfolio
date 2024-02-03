@@ -154,10 +154,14 @@
                 </div>
                 <div class="flex justify-center space-x-4 mt-6">
                     <div class="rounded-3xl border border-black p-4">
-                        <span class="font-semibold">Github</span>
+                        <a href="" target="_blank">
+                            <span class="font-semibold">Github</span>
+                        </a>
                     </div>
                     <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
-                        <span class="font-semibold">Visit</span>
+                        <a href="" target="_blank">
+                            <span class="font-semibold">Visit</span>
+                        </a>
                     </div>
                 </div>
             </div>
