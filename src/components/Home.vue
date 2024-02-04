@@ -12,7 +12,7 @@
     </div>
     <div class=" flex justify-center pt-[225px]">
         <div>
-            <span class="text-9xl font-bold">Welcome!</span>
+            <span class="text-7xl md:text-9xl font-bold">Welcome!</span>
         </div>
     </div>
     <div class=" flex justify-center pt-[300px] cursor-pointer">
@@ -194,6 +194,9 @@
         <div class="text-center">
             <span class="font-semibold text-2xl">If you have a project, trust me. I can make it happen. <br>Reach me out.</span>
         </div>
+    </div>
+    <div class="flex justify-center">
+        
     </div>
 </template>
 
