@@ -196,7 +196,15 @@
         </div>
     </div>
     <div class="flex justify-center">
-        
+        <div>
+            <span>Instagram</span>
+        </div>   
+        <div>
+            <span>Twitter</span>
+        </div>
+        <div>
+            <span>Email</span>
+        </div>
     </div>
 </template>
 
