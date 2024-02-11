@@ -195,14 +195,18 @@
             <span class="font-semibold text-2xl">If you have a project, trust me. I can make it happen. <br>Reach me out.</span>
         </div>
     </div>
-    <div class="flex justify-center">
-        <div>
-            <span>Instagram</span>
+    <div class="flex justify-center space-x-4 mt-4">
+        <div class="underline">
+            <a href="https://www.instagram.com/linusehle/" target="_blank">
+                <span>Instagram</span>
+            </a>
         </div>   
-        <div>
-            <span>Twitter</span>
+        <div class="underline">
+            <a href="https://twitter.com/ehlelinus" target="_blank">
+                <span>Twitter</span>
+            </a>
         </div>
-        <div>
+        <div class="underline">
             <span>Email</span>
         </div>
     </div>
