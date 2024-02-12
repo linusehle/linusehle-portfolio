@@ -1,219 +1,39 @@
 <template>
-    <div class=" flex justify-center">
-        <div class="flex space-x-4 items-center justify-center pt-16">
-            <span class="uppercase text-2xl font-semibold">Made with</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="text-[#1373e6] h-8">
-                <path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 
-                300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 
-                268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0
-                41.5 17.2 81.2 47.6 109.5z"/>
-            </svg>
-        </div>
-    </div>
-    <div class=" flex justify-center pt-[225px]">
-        <div>
-            <span class="text-7xl md:text-9xl font-bold">Welcome!</span>
-        </div>
-    </div>
-    <div class=" flex justify-center pt-[300px] cursor-pointer">
-        <div class="bg-[#1373e6] rounded-full text-white p-4" v-on:click="scroll_main">
-            <span class="text-xl font-bold">↓</span>
-        </div>
-    </div>
-    <div id="main" class="h-screen flex flex-col items-center justify-center">
-        <div class="flex items-center space-x-2">
-            <span class="text-4xl font-semibold">Hello there</span>
-            <img class="h-10" src="../assets/waving_emoijo.png" />
-            <span class="text-4xl font-semibold">I'm</span>
-        </div>
-        <div>
-            <span class="text-9xl font-bold text-[#1373e6]">Linus</span>
-        </div>
-        <div>
-            <span class="text-6xl font-bold">developer</span>
-        </div>
-        <div class="h-[250px] border-dashed border-4 border-[#1373e6] mt-[100px]"></div>
-    </div>
-    <div class="flex flex-col justify-center">
-        <div class="flex flex-col text-center">
-            <span class="text-4xl font-semibold">Explore my</span>
-            <span class="text-6xl font-bold text-[#1373e6]">Experience</span>
-        </div>
-        <div class="flex justify-center space-x-8 pt-10">
-            <div class="border border-black p-6 rounded-3xl">
-                <div class="text-center">
-                    <span class="text-2xl font-semibold">Frontend Development</span>
-                </div>
-                <div class="flex flex-col space-y-10 mt-6">
-                    <div class="flex space-x-32">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">Html</span>
-                            <span class="text-xl ">Experienced</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">Css</span>
-                            <span class="text-xl">Experienced</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">TailwindCss</span>
-                            <span class="text-xl">Experienced</span>
-                        </div>
-                    </div>
-                    <div class="flex space-x-32">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">Javascript</span>
-                            <span class="text-xl">Experienced</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">VueJS</span>
-                            <span class="text-xl">Intermediate</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">ReactJS</span>
-                            <span class="text-xl">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
+    <div id="contact" class="bg-[#1a171e] flex flex-col">
+        <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
+            <div class="-mb-1">
+                <span class="font-medium text-base uppercase tracking-tight text-white">contact</span>
             </div>
-            <div class="border border-black p-6 rounded-3xl">
-                <div class="text-center">
-                    <span class="text-2xl font-semibold">Other</span>
-                </div>
-                <div class="flex flex-col space-y-10 mt-6">
-                    <div class="flex space-x-32">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">Java</span>
-                            <span class="text-xl ">Intermediate</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">Rust</span>
-                            <span class="text-xl">Intermediate</span>
-                        </div>
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">C/C++</span>
-                            <span class="text-xl">Intermediate</span>
-                        </div>
-                    </div>
-                    <div class="flex space-x-32">
-                        <div class="flex flex-col">
-                            <span class="text-xl font-bold">Github/Git</span>
-                            <span class="text-xl">Experienced</span>
-                        </div>
-                    </div>
-                </div>
-            </div>            
-        </div>
-        <div class="flex justify-center">
-            <div class="h-[250px] w-0 border-dashed border-4 border-[#1373e6] mt-[100px]"></div>
-        </div>
-    </div>
-    <div class="flex flex-col justify-center pt-6">
-        <div class="flex flex-col text-center">
-            <span class="text-4xl font-semibold">Browse my recent</span>
-            <span class="text-6xl font-bold text-[#1373e6]">Projects</span>
-        </div>
-        <div class="flex flex-col space-y-12 lg:space-y-0 lg:flex-row justify-center lg:space-x-12 mt-12">
-            <div class="border border-black rounded-3xl p-6 mx-6 flex flex-col">
-                <div class="flex justify-center">
-                    <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
-                </div>
-                <div class="flex justify-center mt-6">
-                    <span class="text-2xl font-bold">Project One</span>
-                </div>
-                <div class="flex justify-center space-x-4 mt-6">
-                    <div class="rounded-3xl border border-black p-4">
-                        <a href="" target="_blank">
-                            <span class="font-semibold">Github</span>
-                        </a>
-                    </div>
-                    <div class="rounded-3xl border border-black p-4 mx-6 w-[75px] text-center">
-                        <a href="" target="_blank">
-                            <span class="font-semibold">Visit</span>
-                        </a>
-                    </div>
-                </div>
+            <div>
+                <span class="font-bold text-3xl text-[#8b31ff]">Contact</span>
             </div>
-            <div class="border border-black rounded-3xl p-6 mx-6 flex flex-col">
-                <div class="flex justify-center">
-                    <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
-                </div>
-                <div class="flex justify-center mt-6">
-                    <span class="text-2xl font-bold">Project Two</span>
-                </div>
-                <div class="flex justify-center space-x-4 mt-6">
-                    <div class="rounded-3xl border border-black p-4">
-                        <a href="" target="_blank">
-                            <span class="font-semibold">Github</span>
-                        </a>
-                    </div>
-                    <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
-                        <a href="" target="_blank">
-                            <span class="font-semibold">Visit</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="border border-black rounded-3xl p-6 mx-6 flex flex-col">
-                <div class="flex justify-center">
-                    <img class="h-[400px] rounded-3xl" src="../assets/project-3.png" />
-                </div>
-                <div class="flex justify-center mt-6">
-                    <span class="text-2xl font-bold">Project Three</span>
-                </div>
-                <div class="flex justify-center space-x-4 mt-6">
-                    <div class="rounded-3xl border border-black p-4">
-                        <a href="" target="_blank">
-                            <span class="font-semibold">Github</span>
-                        </a>
-                    </div>
-                    <div class="rounded-3xl border border-black p-4 w-[75px] text-center">
-                        <a href="" target="_blank">
-                            <span class="font-semibold">Visit</span>
-                        </a>
-                    </div>
-                </div>
+            <div>
+                <span class="font-semibold text-2xl text-white">Let's get in touch.</span>
             </div>
         </div>
-        <div class="flex justify-center">
-            <div class="h-[250px] w-0 border-dashed border-4 border-[#1373e6] mt-[100px]"></div>
-        </div>     
-    </div>
-    <div class="flex justify-center text-center pt-6">
-        <span class="text-7xl font-bold">Thanks you!<br>for looking my journey.</span>
-    </div>
-    <div class="flex space-x-4 items-center justify-center pt-8">
-        <span class="uppercase text-2xl font-semibold">Made with</span>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="text-[#1373e6] h-8">
-            <path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 
-            300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 
-            268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0
-            41.5 17.2 81.2 47.6 109.5z"/>
-        </svg>
-    </div>
-    <div class="flex justify-center pt-12">
-        <div class="text-center">
-            <span class="font-semibold text-2xl">If you have a project, trust me. I can make it happen. <br>Reach me out.</span>
-        </div>
-    </div>
-    <div class="flex justify-center space-x-4 mt-4">
-        <div class="underline">
-            <a href="https://www.instagram.com/linusehle/" target="_blank">
-                <span>Instagram</span>
-            </a>
-        </div>   
-        <div class="underline">
-            <a href="https://twitter.com/ehlelinus" target="_blank">
-                <span>Twitter</span>
-            </a>
-        </div>
-        <div class="underline">
-            <span>Email</span>
+        <div class="flex flex-col justify-center pb-10">
+            <div>
+                <form class="sm:mx-auto sm:w-[30rem] md:w-[35rem] space-y-6">
+                    <div class="relative">
+                        <input type="text" id="name_input" class="block w-[25rem] px-2.5 pb-2.5 pt-4 sm:w-full h-12 sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder="" />
+                        <label for="name_input" class="absolute text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Name</label>
+                    </div>
+                    <div class="relative">
+                        <input type="email" id="name_input" class="block w-[25rem] px-2.5 pb-2.5 pt-4 sm:w-full h-12 sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder="" />
+                        <label for="name_input" class="absolute text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Email</label>
+                    </div>
+                    <div class="relative">
+                        <textarea id="message" class="block h-auto w-[25rem] px-2.5 pb-2.5 pt-4 sm:w-full min-h-[10rem] max-h-[20rem] sm:h-14  bg-transparent rounded-[0.6rem] border-2 border-[#8b31ff] text-white focus:outline-none peer" placeholder=""></textarea>
+                        <label for="message" class="absolute text-white duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1">Message</label>
+                    </div>
+                </form>
+            </div>
+            <div class="flex pb-6 justify-center text-white">
+                <div class="mt-10 border-[3px] border-[#8b31ff] rounded-[10px] px-4 py-2 space-x-2">
+                    <span class="font-semibold text-xl">Send</span>
+                    <span class="font-semibold text-xl">→</span>
+                </div>
+            </div>
         </div>
     </div>
 </template>
-
-<script setup>
-function scroll_main (event) {
-    document.getElementById("main").scrollIntoView({behavior: 'smooth'})
-}
-</script>
