@@ -72,7 +72,7 @@
             <div class="mt-10 flex justify-center">
                 <div class="border-[3px] rounded-[10px] px-4 py-2">
                     <a href="">
-                        <span class="font-semibold text-white">Contact me</span>
+                        <span class="font-semibold text-white hover:transition-all hover:duration-75 hover:ease-in-out">Contact me</span>
                     </a>
                 </div>
             </div>
