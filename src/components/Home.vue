@@ -12,9 +12,9 @@
             </div>
             <div class="pt-16">
                 <div>
-                    <span class="font-medium text-base uppercase tracking-tight text-white">languages and tools</span>
+                    <span class="font-medium text-base uppercase tracking-widest text-gray-200">languages and tools</span>
                 </div>
-                <div class="flex mt-6 space-x-4">
+                <div class="flex flex-wrap mt-6 space-x-4 items-center justify-start">
                     <div>
                         <svg class="h-14" xmlns="http://www.w3.org/2000/svg" 
                         aria-label="HTML5" role="img" viewBox="0 0 512 512" fill="#000000">
@@ -51,7 +51,7 @@
             </div>
             <div class="pt-8">
                 <div>
-                    <span class="font-medium text-base uppercase tracking-tight text-white">libaries and frameworks</span>
+                    <span class="font-medium text-base uppercase tracking-widest text-white">libaries and frameworks</span>
                 </div>
                 <div class="flex mt-6 space-x-4">
                     <div>
@@ -67,7 +67,7 @@
             </div>
             <div class="pt-8">
                 <div>
-                    <span class="font-medium text-base uppercase tracking-tight text-white">other</span>
+                    <span class="font-medium text-base uppercase tracking-widest text-white">other</span>
                 </div>
                 <div class="flex mt-6 space-x-4">
                     <div>
