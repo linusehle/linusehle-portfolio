@@ -1,7 +1,7 @@
 <template>
     <body class="bg-[#120e16]">
         <div class="bg-[#7b15ff] flex flex-col">
-            <div class="flex justify-center py-8">
+            <div class="flex justify-center my-8">
                 <span class="text-white font-bold text-3xl">Feel free to contact me!</span>
             </div>
             <div class="flex justify-center space-x-6 text-white">
@@ -69,7 +69,7 @@
                     </a>
                 </div>
             </div>
-            <div class="pt-6 flex justify-center">
+            <div class="mt-10 flex justify-center">
                 <div class="border-[3px] rounded-[10px] px-4 py-2">
                     <a href="">
                         <span class="font-semibold text-white">Contact me</span>
