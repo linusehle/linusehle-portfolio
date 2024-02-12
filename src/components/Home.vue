@@ -2,7 +2,7 @@
     <div id="skills" class="bg-[#120e16]">
         <div class="flex flex-col py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="">
-                <span class="font-medium text-base uppercase tracking-tight text-white">skills</span>
+                <span class="font-medium text-base uppercase tracking-widest text-white">skills</span>
             </div>
             <div>
                 <span class="font-bold text-3xl text-[#8b31ff]">My Skills</span>
@@ -83,7 +83,7 @@
     <div id="contact" class="bg-[#1a171e] flex flex-col">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="-mb-1">
-                <span class="font-medium text-base uppercase tracking-tight text-white">contact</span>
+                <span class="font-medium text-base uppercase tracking-widest text-white">contact</span>
             </div>
             <div>
                 <span class="font-bold text-3xl text-[#8b31ff]">Contact</span>
