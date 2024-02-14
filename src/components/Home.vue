@@ -1,4 +1,5 @@
 <template>
+    <div id="progress-bar"></div>
     <div id="home" class="bg-[#120e16]">
         <div class="flex flex-col py-12 px-4 md:px-[125px] lg:px-[300px]">
 
@@ -96,6 +97,36 @@
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-bold text-2xl text-white md:text-3">Some things I buildt with heart</span>
             </div>
+            <div class="flex mt-8">
+                <div class="mr-10">
+                    <a href="" target="_blank">
+                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                            <span>lol</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="mr-10">
+                    <a href="" target="_blank">
+                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                            <span>lol</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="mr-10">
+                    <a href="" target="_blank">
+                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                            <span>lol</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="mr-10">
+                    <a href="" target="_blank">
+                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                            <span>lol</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <div id="contact" class="bg-[#1a171e] flex flex-col">
@@ -136,3 +167,28 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+#progress-bar {
+    --scrollAmount: 0%;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    width: var(--scrollAmount);
+    height: 25px;
+    position: fixed;
+    top: 0;
+}
+</style>
+
+<script setup>
+let processScroll = () => {
+    let docElem = document.documentElement,
+        docBody = document.body,
+        scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+        scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
+        scrollPercent = scrollTop / scrollBottom * 100 + '%';
+
+        document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);
+}
+
+document.addEventListener("scroll", processScroll)
+</script>
