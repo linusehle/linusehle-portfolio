@@ -93,6 +93,9 @@
             <div>
                 <span class="font-bold text-3xl text-[#8b31ff]">My Projects</span>
             </div>
+            <div class="w-full sm:max-w-lg pt-4">
+                <span class="font-bold text-2xl text-white md:text-3">Some things I buildt with heart</span>
+            </div>
         </div>
     </div>
     <div id="contact" class="bg-[#1a171e] flex flex-col">
