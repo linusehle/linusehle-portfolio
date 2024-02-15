@@ -9,6 +9,11 @@
                 <span class="font-bold text-6xl text-white underline decoration-[#8b31ff] decoration-[7px]">Linus</span>
                 <span class="font-bold text-6xl text-white">Ehle</span>
             </div>
+            <div class="mt-6">
+                <div class="animated-text text-white">
+                    <span></span>
+                </div>
+            </div>
         </div>
     </div>
     <div id="skills" class="bg-[#120e16]">
@@ -187,6 +192,65 @@
     position: fixed;
     top: 0;
 }
+
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Youtuber";
+    color: #ff7f50;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 110%;
+    background-color: #120e16;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Youtuber";
+    }
+    21%,40%{
+        content: "Blogger";
+    }
+    41%,60%{
+        content: "Developer";
+    }
+    61%,80%{
+        content: "Designer";
+    }
+    81%,100%{
+        content: "I build things with code and heart";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
 </style>
 
 <script setup>
@@ -205,6 +269,7 @@ document.addEventListener("scroll", processScroll)
 </script>
 
 <script>
+
 export default {
     methods: {
         projects_wheel (event) {
