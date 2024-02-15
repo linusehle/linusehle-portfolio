@@ -10,7 +10,7 @@
                 <span class="font-bold text-6xl text-white">Ehle</span>
             </div>
             <div class="mt-6">
-                <div class="animated-text text-white">
+                <div class="animated-text text-white text-4xl font-semibold leading-relaxed">
                     <span></span>
                 </div>
             </div>
@@ -194,8 +194,6 @@
 }
 
 .animated-text{
-    font-size: 34px;
-    font-weight: 600;
     min-width: 280px;
 }
 
@@ -205,7 +203,7 @@
 
 .animated-text span::before{
     content: "Youtuber";
-    color: #ff7f50;
+    color: #aaaaaa;
     animation: words 20s infinite;
 }
 
