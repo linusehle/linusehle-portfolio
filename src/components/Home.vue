@@ -97,34 +97,38 @@
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-bold text-2xl text-white md:text-3">Some things I buildt with heart</span>
             </div>
-            <div class="flex mt-8">
-                <div class="mr-10">
-                    <a href="" target="_blank">
-                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                            <span>lol</span>
+            <div class="w-[1500px] rounded-[8px]">
+                <div class="scrollable overflow-y-hidden py-2 px-0 whitespace-nowrap" v-on:wheel="projects_wheel">
+                    <div class="flex mt-8">
+                        <div class="mr-10 flex">
+                            <a href="" target="_blank">
+                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>lol</span>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="mr-10">
-                    <a href="" target="_blank">
-                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                            <span>lol</span>
+                        <div class="mr-10 flex">
+                            <a href="" target="_blank">
+                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>lol</span>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="mr-10">
-                    <a href="" target="_blank">
-                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                            <span>lol</span>
+                        <div class="mr-10">
+                            <a href="" target="_blank">
+                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>lol</span>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="mr-10">
-                    <a href="" target="_blank">
-                        <div class="h-[25rem] w-[38rem] rounded-3xl max-w-full" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                            <span>lol</span>
+                        <div class="mr-[75px]">
+                            <a href="" target="_blank">
+                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>lol</span>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,9 +175,9 @@
 <style scoped>
 #progress-bar {
     --scrollAmount: 0%;
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background: white;
     width: var(--scrollAmount);
-    height: 25px;
+    height: 3px;
     position: fixed;
     top: 0;
 }
@@ -191,4 +195,20 @@ let processScroll = () => {
 }
 
 document.addEventListener("scroll", processScroll)
+
+</script>
+
+<script>
+export default {
+    methods: {
+        projects_wheel (event) {
+            const scrollable = event.currentTarget;
+            if (event.deltaY > 0) {
+                scrollable.scrollLeft += 50;
+            } else {
+                scrollable.scrollLeft -= 50;
+            }
+        }
+    }
+}
 </script>
