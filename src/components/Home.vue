@@ -218,41 +218,6 @@
                 </div>
             </a>
         </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
-                </div>
-            </a>
-        </div>
     </div>    
     <div id="contact" class="bg-[#1a171e] h-screen flex flex-col">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
