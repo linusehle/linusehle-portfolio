@@ -180,42 +180,80 @@
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-semibold text-[1.65rem] text-white md:text-3">Some things I buildt with heart</span>
             </div>
-            <div class="w-[1500px] rounded-[8px]">
-                <div class="scrollable overflow-y-hidden py-2 px-0 whitespace-nowrap" v-on:wheel="projects_wheel">
-                    <div class="flex mt-8">
-                        <div class="mr-10 flex">
-                            <a href="" target="_blank">
-                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span class="font-semibold text-3xl pl-4 text-white">Todo App</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mr-10 flex">
-                            <a href="" target="_blank">
-                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span class="font-semibold text-3xl pl-4 text-white">Todo App</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mr-10">
-                            <a href="" target="_blank">
-                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span class="font-semibold text-3xl pl-4 mt-4 text-white">Todo App</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mr-[75px]">
-                            <a href="" target="_blank">
-                                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>lol</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
+    <div class="flex overflow-x-scroll py-4 px-4 md:px-[125px] lg:px-[300px] bg-[#120e16]" v-on:wheel="projects_wheel" id="projects-wrapper">
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+        <div class="mr-10 flex">
+            <a href="" target="_blank">
+                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                </div>
+            </a>
+        </div>
+    </div>    
     <div id="contact" class="bg-[#1a171e] h-screen flex flex-col">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="-mb-1">
@@ -303,10 +341,10 @@
         content: "I create pleasing and modern software";
     }
     41%,60%{
-        content: "Developer";
+        content: "change later";
     }
     61%,80%{
-        content: "Designer";
+        content: "change later";
     }
     81%,100%{
         content: "I build things with code and heart";
@@ -343,12 +381,11 @@ document.addEventListener("scroll", processScroll)
 export default {
     methods: {
         projects_wheel (event) {
-            const scrollable = event.currentTarget;
-            if (event.deltaY > 0) {
-                scrollable.scrollLeft += 25;
-            } else {
-                scrollable.scrollLeft -= 25;
-            }
+            event.preventDefault ();
+
+            document.getElementById("projects-wrapper").scrollBy({
+                left: event.deltaY < 0 ? -30 : 30,
+            })
         }
     }
 }
