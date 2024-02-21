@@ -68,7 +68,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="" target="_blank">
+                    <a href="https://twitter.com/ehlelinus" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="text-white h-6 hover:text-[#9f55ff]">
                             <path fill="currentColor" d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 
                             0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 
@@ -82,7 +82,7 @@
             <div class="mt-10 flex">
                 <div class="border-[3px] border-[#8b31ff] rounded-[10px] px-4 py-2">
                     <a href="">
-                        <span class="font-semibold text-white hover:transition-all hover:duration-75 hover:ease-in-out">Lets connect</span>
+                        <span class="font-semibold text-white animation-connect-btn">Lets connect</span>
                     </a>
                 </div>
             </div>
@@ -97,7 +97,7 @@
         </div>
     </div>
     <div id="skills" class="bg-[#120e16] h-screen">
-        <div class="flex flex-col py-12 px-4 md:px-[125px] lg:px-[300px]">
+        <div class="flex flex-col py-12 px-4 md:px-[125px] lg:px-[300px] fade-animation">
             <div class="">
                 <span class="font-medium text-base uppercase tracking-widest text-white">skills</span>
             </div>
@@ -107,7 +107,7 @@
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-semibold text-[1.65rem] text-white md:text-3xl">I like to build things with code and to always learn new things.</span>
             </div>
-            <div class="pt-16">
+            <div class="pt-16 fade-animation">
                 <div>
                     <span class="font-medium text-base uppercase tracking-widest text-gray-200">languages and tools</span>
                 </div>
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-8">
+            <div class="pt-8 fade-animation">
                 <div>
                     <span class="font-medium text-base uppercase tracking-widest text-white">libaries and frameworks</span>
                 </div>
@@ -162,7 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-8">
+            <div class="pt-8 fade-animation">
                 <div>
                     <span class="font-medium text-base uppercase tracking-widest text-white">other</span>
                 </div>
@@ -290,7 +290,7 @@
     height: 110%;
     background-color: #120e16;
     right: -8px;
-    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+    animation: cursor .8s infinite, typing 24s steps(14) infinite;
 }
 
 @keyframes cursor {
@@ -325,6 +325,7 @@
         width: calc(100% + 8px);
     }
 }
+
 </style>
 
 <script setup>
