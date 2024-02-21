@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="" target="_blank">
+                    <a href="https://twitter.com/ehlelinus" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="text-white h-6">
                             <path fill="currentColor" d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 
                             0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 
