@@ -88,6 +88,14 @@
             </div>
         </div>
     </div>
+    <div id="about" class="bg-[#120e16] h-screen w-full flex justify-center">
+        <div class="flex justify-center">
+            <h1 class="font-semibold text-[2.70rem] md:text-6xl lg:text-[4rem] text-center max-w-[75%]">
+                <span class="leading-tight text-[#423e45] hover:text-white">I'm a passionate Developer who's focues on building scalable and performant apps<br></span>
+                <span class="leading-tight text-[#423e45] hover:text-white">I take responsibility to craft a good user experience using modern frontend tools.</span>
+            </h1>
+        </div>
+    </div>
     <div id="skills" class="bg-[#120e16] h-screen">
         <div class="flex flex-col py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="">
