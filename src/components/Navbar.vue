@@ -11,12 +11,12 @@
         </div>
       </div>
       <nav :class="isOpen ? 'flex' : 'hidden'" class="">
-        <ul class="flex flex-col space-y-4 pt-8 pb-4">
+        <ul class="flex w-full flex-col space-y-4">
             <li>
-              <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/'}" to="/">Home</router-link>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Home</span>
             </li>
             <li>
-              <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/about'}" to="/">About</router-link>
+              <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/about'}" to="/">Skills</router-link>
             </li>
             <li>
               <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/projects'}" to="/">Projects</router-link>
