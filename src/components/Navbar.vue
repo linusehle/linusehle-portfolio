@@ -16,13 +16,13 @@
               <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Home</span>
             </li>
             <li>
-              <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/about'}" to="/">Skills</router-link>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Skills</span>
             </li>
             <li>
-              <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/projects'}" to="/">Projects</router-link>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Projects</span>
             </li>
             <li>
-              <router-link class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" :class="{'text-white': $route.path === '/contact'}" to="/">Contact</router-link>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Contact</span>
             </li>
           </ul>
       </nav>
