@@ -186,35 +186,28 @@
         <div class="mr-10 flex">
             <a href="" target="_blank">
                 <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                    <span class="font-semibold text-3xl pl-4 text-white">Project One</span>
                 </div>
             </a>
         </div>
         <div class="mr-10 flex">
             <a href="" target="_blank">
                 <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Two</span>
                 </div>
             </a>
         </div>
         <div class="mr-10 flex">
             <a href="" target="_blank">
                 <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Three</span>
                 </div>
             </a>
         </div>
         <div class="mr-10 flex">
             <a href="" target="_blank">
                 <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Name</span>
+                    <span class="font-semibold text-3xl pl-4 text-white">Project Four</span>
                 </div>
             </a>
         </div>
