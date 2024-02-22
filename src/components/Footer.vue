@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="" target="_blank">
+                    <a href="https://github.com/linusehle" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="text-white h-6">
                             <path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 
                             1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 
