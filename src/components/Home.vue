@@ -260,6 +260,10 @@
 </template>
 
 <style scoped>
+* {
+    cursor: none;
+}
+
 #progress-bar {
     --scrollAmount: 0%;
     background: white;
