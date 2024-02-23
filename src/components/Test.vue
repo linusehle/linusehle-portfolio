@@ -8,9 +8,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
+  cursor: none;
 }
 
-body {
+template {
   height: 100vh;
   background-color: #1b1b1f;
   cursor: none;
@@ -41,8 +42,11 @@ body {
 </style>
 
 <script setup>
-const cursorDot = document.querySelector("[data-cursor-dot]");
-const cursorOutline = document.querySelector("[data-cursor-outline]");
+import { onMounted } from "vue";
+
+onMounted(() => {
+  const cursorDot = document.querySelector("[data-cursor-dot]");
+  const cursorOutline = document.querySelector("[data-cursor-outline]");
 
 window.addEventListener("mousemove", function (e) {
   const posX = e.clientX;
@@ -58,5 +62,6 @@ window.addEventListener("mousemove", function (e) {
     left: `${posX}px`,
     top: `${posY}px`
   }, { duration: 500, fill: "forwards" });
+})
 })
 </script>
