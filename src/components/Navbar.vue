@@ -13,13 +13,13 @@
       <nav :class="isOpen ? 'flex' : 'hidden'" class="">
         <ul class="flex w-full flex-col space-y-4">
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Home</span>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]">Home</span>
             </li>
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Skills</span>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]">Skills</span>
             </li>
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Projects</span>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]">Projects</span>
             </li>
             <li>
               <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]">Contact</span>
