@@ -82,3 +82,9 @@
         </svg>
     </body>
 </template>
+
+<style>
+* {
+    cursor: none;
+}
+</style>
