@@ -22,7 +22,7 @@
               <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Projects</span>
             </li>
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff] cursor-pointer">Contact</span>
+              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]">Contact</span>
             </li>
           </ul>
       </nav>
@@ -38,7 +38,10 @@
     },
   }
   </script>
-  <script setup>
 
-  </script>
+  <style>
+* {
+  cursor: none;
+}
+</style>
   
