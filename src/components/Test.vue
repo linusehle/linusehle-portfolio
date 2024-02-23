@@ -1,51 +1,62 @@
 <template>
-    <h1 class="header-section">Scroll down to see a horizontal scroll section</h1>
-  
-  <div class="massiveImage"></div>
-  
-  <h1 class="header-section">Now we're back to regular scrolling</h1>
-  
-  
-  
-  
-  <header>
-     <a href="https://greensock.com/scrolltrigger">
-       <img class="greensock-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/scroll-trigger-logo-light.svg" width="200" height="64" />
-    </a> 
-  </header>
+  <div class="cursor-dot" data-cursor-dot></div>
+  <div class="cursor-outline" data-cursor-outline></div>
 </template>
-<style>
-.massiveImage {
-  height: 100vh;
-  width: 400vw;
-  background-size: cover;
-  background-position: center;
-}
-.header-section {
-  padding-bottom: 50vh;
-  margin-bottom: 0;
+
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
 }
 
+body {
+  height: 100vh;
+  background-color: #1b1b1f;
+  cursor: none;
+}
+
+.cursor-dot {
+  height: 5px;
+  width: 5px;
+  background-color: white;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsla(0, 0%, 100%, 0.5);
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
 </style>
 
 <script setup>
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
+const cursorDot = document.querySelector("[data-cursor-dot]");
+const cursorOutline = document.querySelector("[data-cursor-outline]");
 
-gsap.registerPlugin(ScrollTrigger);
+window.addEventListener("mousemove", function (e) {
+  const posX = e.clientX;
+  const posY = e.clientY;
 
-gsap.set(".massiveImage", {
-    xPercent: -100,
-    x: () => innerWidth,
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".massiveImage",
-        start: "top top",
-        end: () => innerWidth * 3,
-        scrub: true,
-        pin: true,
-        invalidateOnRefresh: true,
-        anticipatePin: 1
-    }
+  cursorDot.style.left = `${posX}px`;
+  cursorDot.style.top = `${posY}px`; 
+
+  // cursorOutline.style.left = `${posX}px`;
+  // cursorOutline.style.top = `${posY}px`;
+
+  cursorOutline.animate ({
+    left: `${posX}px`,
+    top: `${posY}px`
+  }, { duration: 500, fill: "forwards" });
 })
 </script>
