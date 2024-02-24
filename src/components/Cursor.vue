@@ -18,19 +18,14 @@ template {
 }
 
 .cursor-dot {
-  height: 5px;
-  width: 5px;
+  height: 7.5px;
+  width: 7.5px;
   background-color: white;
 }
 
-.cursor-outline {
-  width: 30px;
-  height: 30px;
-  border: 2px solid hsla(0, 0%, 100%, 0.5);
-}
 
-.cursor-dot,
-.cursor-outline {
+
+.cursor-dot {
   position: fixed;
   top: 0;
   left: 0;
