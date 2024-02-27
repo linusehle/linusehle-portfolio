@@ -348,7 +348,6 @@ document.addEventListener("scroll", processScroll)
 </script>
 
 <script>
-
 export default {
     methods: {
         projects_wheel (event) {
