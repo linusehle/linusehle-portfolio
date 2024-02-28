@@ -190,7 +190,7 @@
             </div>
         </div>
     </div>
-    <div class="flex overflow-x-scroll py-4 px-4 md:px-[125px] lg:pl-[300px] bg-[#120e16]" v-on:wheel="projects_wheel" id="projects-wrapper">
+    <div class="project-scrollbar flex overflow-x-scroll py-4 px-4 md:px-[125px] lg:pl-[300px] bg-[#120e16]" v-on:wheel="projects_wheel" id="projects-wrapper">
         <div class="mr-10 flex">
             <a href="" target="_blank">
                 <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
@@ -271,6 +271,10 @@
     height: 3px;
     position: fixed;
     top: 0;
+}
+
+.project-scrollbar::-webkit-scrollbar {
+  display: none; 
 }
 
 .animated-text{
