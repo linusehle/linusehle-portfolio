@@ -80,11 +80,11 @@
                 </div>
             </div>
             <div class="mt-10 flex">
-                <div class="border-[3px] border-[#8b31ff] rounded-[10px] px-4 py-2">
+                <button class="grow_skew_forward">
                     <a href="">
-                        <span class="font-semibold text-white animation-connect-btn">Lets connect</span>
+                        <span class="">Lets connect</span>
                     </a>
-                </div>
+                </button>
             </div>
         </div>
     </div>
@@ -334,6 +334,67 @@
     }
 }
 
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 2em;
+  color: #fff;
+  border: 0.25rem solid #3498db;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+button:hover {
+  color: #3498db;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+button[class^="grow"]::after {
+  transition: all 1.3s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 1.3s ease-out;
+}
+button.grow_box::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0);
+}
+
+button.grow_ellipse:hover::after {
+  transform: scale(1, 1);
+}
+button.grow_skew_forward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+button.grow_skew_forward:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+}
 </style>
 
 <script setup>
