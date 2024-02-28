@@ -82,7 +82,7 @@
             <div class="mt-10 flex">
                 <button class="grow_skew_forward">
                     <a href="">
-                        <span class="">Lets connect</span>
+                        <span class="font-semibold text-white">Lets connect</span>
                     </a>
                 </button>
             </div>
@@ -339,24 +339,27 @@
 }
 
 button {
-  font-size: 2em;
+  font-size: 1.7rem;
+  padding: 8px 16px;
   color: #fff;
-  border: 0.25rem solid #3498db;
+  border: 3px solid #8b31ff;
+  border-radius: 10px;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
-button:hover {
-  color: #3498db;
+button:hover {  
+color: white;
 }
 button::after {
   content: "";
-  background: #ecf0f1;
+  background: #8b31ff;
   position: absolute;
   z-index: -1;
   padding: 0.85em 0.75em;
   display: block;
 }
+
 button[class^="slide"]::after {
   transition: all 0.35s;
 }
@@ -369,21 +372,10 @@ button[class^="slide"]:hover::after {
 }
 
 button[class^="grow"]::after {
-  transition: all 1.3s ease;
+  transition: all 0.6s ease;
 }
 button[class^="grow"]:hover::after {
-  transition: all 1.3s ease-out;
-}
-button.grow_box::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  transform: scale(0, 0);
-}
-
-button.grow_ellipse:hover::after {
-  transform: scale(1, 1);
+  transition: all 0.6s ease-out;
 }
 button.grow_skew_forward::after {
   left: -20%;
