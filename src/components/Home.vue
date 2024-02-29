@@ -372,10 +372,10 @@ button[class^="slide"]:hover::after {
 }
 
 button[class^="grow"]::after {
-  transition: all 0.6s ease;
+  transition: all 0.4s ease;
 }
 button[class^="grow"]:hover::after {
-  transition: all 0.6s ease-out;
+  transition: all 0.4s ease-out;
 }
 button.grow_skew_forward::after {
   left: -20%;
