@@ -408,6 +408,10 @@ button.grow_skew_forward:hover::after {
   position: sticky;
   top: 0;
   height: 100vh;
+  padding: 3rem 1rem;
+  @media (min-width: 768px) {
+    padding: 3rem 125px;
+  }
 }
 
 .scroll_section {
