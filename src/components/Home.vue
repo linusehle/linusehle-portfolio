@@ -397,12 +397,8 @@ button.grow_skew_forward:hover::after {
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 4rem;
-}
-
 .sticky_parent {
-  height: 500vh;
+  height: 250vh;
   background: #120e16;
   
 }
@@ -418,12 +414,11 @@ h1 {
   position: absolute;
   top: 0;
   height: 100%;
-  width:  100vw;
+  width:  200vw;
   will-change: transform;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 2vw;
 }
 
 
