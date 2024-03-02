@@ -190,36 +190,40 @@
             </div>
         </div>
     </div>
-    <div class="project-scrollbar flex overflow-x-scroll py-4 px-4 md:px-[125px] lg:pl-[300px] bg-[#120e16]" v-on:wheel="projects_wheel" id="projects-wrapper">
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project One</span>
+    <div class="sticky_parent">
+            <div class="sticky">
+                <div class="scroll_section">
+                    <div class="mr-10 flex">
+                        <a href="" target="_blank">
+                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                <span>Project One</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mr-10 flex">
+                        <a href="" target="_blank">
+                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                <span>Project Two</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mr-10 flex">
+                        <a href="" target="_blank">
+                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                <span>Project Three</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mr-10 flex">
+                        <a href="" target="_blank">
+                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                <span>Project Four</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Two</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Three</span>
-                </div>
-            </a>
-        </div>
-        <div class="mr-10 flex">
-            <a href="" target="_blank">
-                <div class="h-[25rem] w-[38rem] rounded-3xl" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                    <span class="font-semibold text-3xl pl-4 text-white">Project Four</span>
-                </div>
-            </a>
-        </div>
-    </div>    
+            </div>   
+        </div>    
     <div id="contact" class="bg-[#1a171e] h-screen flex flex-col">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
             <div class="-mb-1">
@@ -261,6 +265,7 @@
 
 <style scoped>
 * {
+    box-sizing: border-box;
     cursor: none;
 }
 
@@ -387,9 +392,59 @@ button.grow_skew_forward::after {
 button.grow_skew_forward:hover::after {
   transform: skewX(-45deg) scale(1, 1);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.sticky_parent {
+  height: 500vh;
+  background: #120e16;
+  
+}
+
+.sticky {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.scroll_section {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width:  100vw;
+  will-change: transform;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+}
+
+
+.project {
+  height: 25rem;
+  width: 38rem;
+  border-radius: 1.5rem;
+}
+
+.project span {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  color: white;
+  text-decoration: none;
+}   
 </style>
 
 <script setup>
+import { onMounted } from 'vue';
+
 let processScroll = () => {
     let docElem = document.documentElement,
         docBody = document.body,
@@ -402,6 +457,35 @@ let processScroll = () => {
 
 document.addEventListener("scroll", processScroll)
 
+onMounted(() => {
+    const stickySection = [...document.querySelectorAll('.sticky')]
+let images = [
+    'https://dr.savee-cdn.com/things/6/4/8dc54f76c3a306e61eb401.webp',
+    'https://dr.savee-cdn.com/things/6/4/8dbbfa1740c9070b3c6581.webp',
+    'https://dr.savee-cdn.com/things/6/4/827433587eb3b7a968f00a.webp',
+]
+
+images.forEach(img => {
+    stickySection.forEach(section => {
+        let image = document.createElement('img');
+        image.src = img;
+    }) 
+})
+
+window.addEventListener('scroll', (e) => {
+    for (let i = 0; i < stickySection.length; i++) {
+        transform(stickySection[i]) 
+    }
+})
+
+function transform (section) {
+    const offsetTop = section.parentElement.offsetTop;
+    const scrollSection = section.querySelector('.scroll_section');
+    let percentage = ((window.scrollY - offsetTop) / window.innerHeight) * 100;
+    percentage = percentage < 0 ? 0 : percentage > 300 ? 300 : percentage;
+    scrollSection.style.transform = `translate3d(${-(percentage)}vw, 0, 0)`
+}
+})
 </script>
 
 <script>
