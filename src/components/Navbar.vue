@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed md:flex">
+    <header class="fixed bg-gradient-to-b from-gray-dark-5 md:flex">
       <div class="flex py-3 sm:p-0">
         <div class="pt-4 px-4 pb-4">
           <button @click="isOpen = !isOpen" type="button" class="block text-white focus:text-white focus:outline-none">
@@ -10,7 +10,7 @@
           </button>
         </div>
       </div>
-      <nav :class="isOpen ? 'flex' : 'hidden'">
+      <nav :class="isOpen ? 'flex transition-all duration-300' : 'hidden'">
         <ul class="flex w-full flex-col space-y-4">
             <li>
               <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_home">Home</span>
