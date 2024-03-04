@@ -278,10 +278,6 @@
     top: 0;
 }
 
-.project-scrollbar::-webkit-scrollbar {
-  display: none; 
-}
-
 .animated-text{
     min-width: 280px;
 }
