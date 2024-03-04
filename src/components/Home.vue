@@ -196,7 +196,7 @@
                     <div class="mr-10 flex">
                         <a href="" target="_blank">
                             <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                <span>Project One</span>
+                                <span>Todo App</span>
                             </div>
                         </a>
                     </div>
@@ -434,6 +434,7 @@ button.grow_skew_forward:hover::after {
   line-height: 2.25rem;
   color: white;
   text-decoration: none;
+  padding: 6rem 1rem;
 }   
 </style>
 
