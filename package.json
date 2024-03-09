@@ -12,6 +12,7 @@
     "devicon": "^2.15.1",
     "gsap": "^3.12.5",
     "typed.js": "^2.1.0",
+    "vanilla-tilt": "^1.8.1",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5",
     "vue-typed-js": "^0.1.2"
