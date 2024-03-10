@@ -190,9 +190,9 @@
             </div>
         </div>
     </div>
-    <div class="sticky_parent">
+    <div class="sticky_parent flex py-12 pl-4 md:pl-[125px] lg:pl-[300px]">
             <div class="sticky">
-                <div class="scroll_section">
+                <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[300px] lg:mx-auto">
                     <Tilt max="10" speed="100">
                         <div class="mr-10 flex">
                             <a href="" target="_blank">
@@ -404,7 +404,7 @@ button.grow_skew_forward:hover::after {
 .sticky_parent {
   height: 250vh;
   background: #120e16;
-  
+  display: flex;
 }
 
 .sticky {
@@ -413,16 +413,10 @@ button.grow_skew_forward:hover::after {
   top: 0;
   height: 100vh;
   padding: 3rem 1rem;
-  @media (min-width: 768px) {
-    padding: 3rem 125px;
-  }
 }
 
 .scroll_section {
-  position: absolute;
-  top: 0;
   height: 100%;
-  width:  200vw;
   will-change: transform;
   display: flex;
   justify-content: space-around;
