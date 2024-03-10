@@ -238,10 +238,10 @@
                 <span class="font-medium text-base uppercase tracking-widest text-white">contact</span>
             </div>
             <div>
-                <span class="font-bold text-3xl text-[#8b31ff]">Contact</span>
+                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Contact</span>
             </div>
             <div>
-                <span class="font-semibold text-2xl text-white">Let's get in touch.</span>
+                <span class="font-semibold font-mono text-2xl text-white">Let's get in touch.</span>
             </div>
         </div>
         <div class="flex flex-col pb-10">

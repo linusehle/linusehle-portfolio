@@ -2,7 +2,7 @@
     <body class="bg-[#120e16]">
         <div class="bg-[#7b15ff] flex flex-col">
             <div class="flex justify-center my-8">
-                <span class="text-white font-bold text-3xl">Feel free to contact me!</span>
+                <span class="text-white font-bold font-mono text-3xl">Feel free to contact me!</span>
             </div>
             <div class="flex justify-center space-x-6 text-white">
                 <div>
@@ -100,6 +100,7 @@ button {
   z-index: 1;
   overflow: hidden;
   outline: 2px solid #fff;
+  font-family: monospace;
 }
 button:hover {  
 color: white;
