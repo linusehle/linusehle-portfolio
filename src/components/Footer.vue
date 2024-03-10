@@ -70,10 +70,12 @@
                 </div>
             </div>
             <div class="mt-10 flex justify-center">
-                <div class="border-[3px] rounded-[10px] px-4 py-2">
-                    <a href="">
-                        <span class="font-semibold text-white hover:transition-all hover:duration-75 hover:ease-in-out">Contact me</span>
-                    </a>
+                <div>
+                    <button class="grow_skew_forward">
+                        <a href="">
+                            <span class="font-semibold text-white">Lets connect</span>
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -83,8 +85,59 @@
     </body>
 </template>
 
-<style>
+<style scoped>
 * {
     cursor: none;
+}
+
+button {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 0.4rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  outline: 2px solid #fff;
+}
+button:hover {  
+color: white;
+}
+button::after {
+  content: "";
+  background: #8b31ff;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+
+button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+button[class^="grow"]::after {
+  transition: all 0.4s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 0.4s ease-out;
+}
+button.grow_skew_forward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+button.grow_skew_forward:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
 }
 </style>
