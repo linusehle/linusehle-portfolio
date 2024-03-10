@@ -193,20 +193,15 @@
     <div class="sticky_parent">
             <div class="sticky">
                 <div class="scroll_section">
-                    <div class="mr-10 flex">
-                        <a href="" target="_blank">
-                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                <span>Todo App</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="mr-10 flex">
-                        <a href="" target="_blank">
-                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                <span>Project wo</span>
-                            </div>
-                        </a>
-                    </div>
+                    <Tilt max="10" speed="100">
+                        <div class="mr-10 flex">
+                            <a href="" target="_blank">
+                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>Project Three</span>
+                                </div>
+                            </a>
+                        </div>
+                    </Tilt>
                    <Tilt max="10" speed="100">
                         <div class="mr-10 flex">
                             <a href="" target="_blank">
@@ -216,20 +211,24 @@
                             </a>
                         </div>
                    </Tilt>
-                    <div class="mr-10 flex">
-                        <a href="" target="_blank">
-                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                <span>Project Three</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="mr-10 flex">
-                        <a href="" target="_blank">
-                            <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                <span>Project Four</span>
-                            </div>
-                        </a>
-                    </div>
+                    <Tilt>
+                        <div class="mr-10 flex">
+                            <a href="" target="_blank">
+                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>Project Three</span>
+                                </div>
+                            </a>
+                        </div>
+                    </Tilt>
+                    <Tilt>
+                        <div class="mr-10 flex">
+                            <a href="" target="_blank">
+                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                                    <span>Project Three</span>
+                                </div>
+                            </a>
+                        </div>
+                    </Tilt>
                 </div>
             </div>   
         </div>    
