@@ -6,7 +6,7 @@
                 <span class="font-medium text-lg uppercase tracking-wide text-[#8b31ff]">Hi, my name is</span>
             </div>
             <div class="flex space-x-2">
-                <span class="font-bold text-6xl text-white border-b-[7px]" style="border-bottom: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-border-image: ;">Linus</span>
+                <span class="font-bold text-6xl text-white border-b-[7px] emphasize">Linus</span>
                 <span class="font-bold text-6xl text-white">Ehle</span>
             </div>
             <div class="mt-6">
@@ -444,6 +444,7 @@ button.grow_skew_forward:hover::after {
   text-decoration: none;
   padding: 6rem 1rem;
 }   
+
 </style>
 
 <script setup>
