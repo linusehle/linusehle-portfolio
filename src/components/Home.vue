@@ -91,7 +91,9 @@
     <div id="about" class="bg-[#120e16] h-screen w-full flex justify-center">
         <div class="flex justify-center">
             <h1 class="font-semibold text-[2.70rem] md:text-6xl lg:text-[4rem] text-center max-w-[75%]">
-                <span class="leading-tight text-[#423e45] hover:text-white">I'm a passionate Developer who's focues on building scalable and performant apps<br></span>
+                <div class="w-full hover:text-white">
+                    <span class="leading-tight text-[#423e45] hover:text-white">I'm a passionate Developer who's focues on building scalable and performant apps<br></span>
+                </div>
                 <span class="leading-tight text-[#423e45] hover:text-white">I take responsibility to craft a good user experience using modern frontend tools.</span>
             </h1>
         </div>
@@ -178,7 +180,7 @@
         </div>
     </div>
     <div id="projects" class="bg-[#120e16] flex flex-col">
-        <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
+        <div class="flex flex-col space-y-4 py-8 px-4 md:px-[125px] lg:px-[300px]">
             <div>
                 <span class="font-medium text-base uppercase tracking-widest text-white">projects</span>
             </div>
@@ -190,29 +192,29 @@
             </div>
         </div>
     </div>
-    <div class="sticky_parent flex py-12 pl-4 md:pl-[125px] lg:pl-[300px]">
+    <div class="sticky_parent flex pl-4 md:pl-[125px] lg:pl-[300px]">
             <div class="sticky">
-                <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[300px] lg:mx-auto">
+                <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[1000px] lg:mx-auto">
                     <Tilt max="10" speed="100">
-                        <div class="mr-10 flex">
+                        <div class="mr-14 flex">
                             <a href="" target="_blank">
                                 <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>Project Three</span>
+                                    <span>Project One</span>
                                 </div>
                             </a>
                         </div>
                     </Tilt>
                    <Tilt max="10" speed="100">
-                        <div class="mr-10 flex">
+                        <div class="mr-14 flex">
                             <a href="" target="_blank">
                                 <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>Project Three</span>
+                                    <span>Project Two</span>
                                 </div>
                             </a>
                         </div>
                    </Tilt>
                     <Tilt>
-                        <div class="mr-10 flex">
+                        <div class="mr-14 flex">
                             <a href="" target="_blank">
                                 <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
                                     <span>Project Three</span>
@@ -221,10 +223,10 @@
                         </div>
                     </Tilt>
                     <Tilt>
-                        <div class="mr-10 flex">
+                        <div class="mr-14 flex">
                             <a href="" target="_blank">
                                 <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>Project Three</span>
+                                    <span>Project Four</span>
                                 </div>
                             </a>
                         </div>
