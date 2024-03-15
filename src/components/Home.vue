@@ -104,7 +104,7 @@
                 <span class="font-medium text-base uppercase tracking-widest text-white">skills</span>
             </div>
             <div>
-                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Skills</span>
+                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); background-clip: text; -webkit-text-fill-color: transparent;">My Skills</span>
             </div>
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-semibold text-[1.65rem] text-white md:text-3xl">I like to build things with code and to always learn new things.</span>
@@ -185,7 +185,7 @@
                 <span class="font-medium text-base uppercase tracking-widest text-white">projects</span>
             </div>
             <div>
-                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">My Projects</span>
+                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); background-clip: text; -webkit-text-fill-color: transparent;">My Projects</span>
             </div>
             <div class="w-full sm:max-w-lg pt-4">
                 <span class="font-semibold text-[1.65rem] text-white md:text-3">Some things I buildt with heart</span>
@@ -240,7 +240,7 @@
                 <span class="font-medium text-base uppercase tracking-widest text-white">contact</span>
             </div>
             <div>
-                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Contact</span>
+                <span class="font-bold font-mono text-3xl" style="background: -webkit-linear-gradient(90deg, #9f55ff, #7000ff); background-clip: text; -webkit-text-fill-color: transparent;">Contact</span>
             </div>
             <div>
                 <span class="font-semibold font-mono text-2xl text-white">Let's get in touch.</span>
