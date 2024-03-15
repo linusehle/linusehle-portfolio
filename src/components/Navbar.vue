@@ -1,5 +1,5 @@
 <template>
-    <header class="fixed bg-gradient-to-b from-gray-dark-5 md:flex">
+    <header class="fixed md:flex w-full">
       <div class="flex py-3 sm:p-0">
         <div class="pt-4 px-4 pb-4">
           <button @click="isOpen = !isOpen" type="button" class="block text-white focus:text-white focus:outline-none">
@@ -10,19 +10,19 @@
           </button>
         </div>
       </div>
-      <nav :class="isOpen ? 'flex transition-all duration-300' : 'hidden'">
-        <ul class="flex w-full flex-col space-y-4">
+      <nav :class="isOpen ? 'flex transition-all duration-300 text-center pt-4' : 'hidden'">
+        <ul class="flex text-left flex-col space-y-4">
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_home">Home</span>
+              <span class="text-white text-xl font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_home">Home</span>
             </li>
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_skills">Skills</span>
+              <span class="text-white text-xl font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_skills">Skills</span>
             </li>
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_projects">Projects</span>
+              <span class="text-white text-xl font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_projects">Projects</span>
             </li>
             <li>
-              <span class="text-white text-lg font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_contact">Contact</span>
+              <span class="text-white text-xl font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_contact">Contact</span>
             </li>
           </ul>
       </nav>
@@ -34,7 +34,7 @@
   export default {
     data() {
       return {
-        isOpen: false,
+        isOpen: false,  
       }
     },
   }
