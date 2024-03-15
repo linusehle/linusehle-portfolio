@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="mt-10 flex">
-                <button class="grow_skew_forward">
+                <button class="grow_skew_forward" v-on:click="scroll_contact">
                     <a href="">
                         <span class="font-semibold text-white">Lets connect</span>
                     </a>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pt-8 fade-animation">
+            <div class="pt-8">
                 <div>
                     <span class="font-medium text-base uppercase tracking-widest text-white">libaries and frameworks</span>
                 </div>
@@ -495,6 +495,9 @@ function transform (section) {
 }
 })
 
+function scroll_contact (event) {
+    document.getElementById("contact").scrollIntoView({behavior: 'smooth'});
+}
 </script>
 <script>
 export default {
