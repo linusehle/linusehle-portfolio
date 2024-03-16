@@ -195,21 +195,26 @@
     <div class="sticky_parent flex pl-4 md:pl-[125px] lg:pl-[300px]">
             <div class="sticky">
                 <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[1100px] lg:mx-auto">
-                    <div class="mr-14 flex">
-                        <a  href="" target="_blank">
-                            <div class="project">
-                                <div class="project-bg w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
-                                    <span>Project One</span>
-                                </div> 
-                                <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#f9aa6c] z-0 absolute"></div>
-                            </div>
-                        </a>
-                    </div>
+                    <Tilt max="10" speed="400">
+                        <div class="mr-14 flex">
+                            <a  href="" target="_blank">
+                                <div class="project">
+                                    <div class="project-bg w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
+                                        <span class="font-mono">Project One</span>
+                                    </div> 
+                                    <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#f9aa6c] z-0 absolute"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </Tilt>
                    <Tilt max="10" speed="400">
                         <div class="mr-14 flex">
                             <a href="" target="_blank">
-                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>Project Two</span>
+                                <div class="project">
+                                    <div class="project-bg-two w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
+                                        <span class="font-mono">Project Two</span>
+                                    </div>
+                                    <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#6a78bf] z-0 absolute"></div>
                                 </div>
                             </a>
                         </div>
@@ -446,13 +451,19 @@ button.grow_skew_forward:hover::after {
     background-size: cover;
 }
 
+.project-bg-two {
+    background: url(../assets/project-bg-two.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .project span {
   font-weight: 600;
   font-size: 1.875rem;
   line-height: 2.25rem;
   color: white;
   text-decoration: none;
-  padding: 6rem 1rem;
+  padding: 1rem;
 }   
 
 </style>
