@@ -193,41 +193,44 @@
         </div>
     </div>
     <div class="sticky_parent flex pl-4 md:pl-[125px] lg:pl-[300px]">
-            <div class="sticky">
-                <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[1100px] lg:mx-auto">
-                    <Tilt max="10" speed="400">
-                        <div class="mr-14 flex">
-                            <a  href="" target="_blank">
-                                <div class="project">
-                                    <div class="project-bg w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
-                                        <span class="font-mono">Project One</span>
-                                    </div> 
-                                    <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#f9aa6c] z-0 absolute"></div>
+        <div class="sticky">
+            <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[1100px] lg:mx-auto">
+                <Tilt max="10" speed="400" gyroscope="false" glare="true" max-glare="0.2">
+                    <div class="mr-14 flex">
+                        <a  href="" target="_blank">
+                            <div class="project">
+                                <div class="project-bg w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
+                                    <span class="font-mono">Project One</span>
+                                </div> 
+                                <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#f9aa6c] z-0 absolute"></div>
+                            </div>
+                        </a>
+                    </div>
+                </Tilt>    
+                <Tilt max="10" speed="400">
+                    <div class="mr-14 flex">
+                        <a href="" target="_blank">
+                            <div class="project">
+                                <div class="project-bg-two w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
+                                    <span class="font-mono">Project Two</span>
                                 </div>
-                            </a>
-                        </div>
-                    </Tilt>
-                   <Tilt max="10" speed="400">
-                        <div class="mr-14 flex">
-                            <a href="" target="_blank">
-                                <div class="project">
-                                    <div class="project-bg-two w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
-                                        <span class="font-mono">Project Two</span>
-                                    </div>
-                                    <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#6a78bf] z-0 absolute"></div>
+                                <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#6a78bf] z-0 absolute"></div>
+                            </div>
+                        </a>
+                    </div>
+                </Tilt>
+                <Tilt max="10" speed="400">
+                    <div class="mr-14 flex">
+                        <a href="" target="_blank">
+                            <div class="project">
+                                <div class="project-bg-three w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
+                                    <span class="font-mono">Project Three</span>
                                 </div>
-                            </a>
-                        </div>
-                   </Tilt>
-                    <Tilt>
-                        <div class="mr-14 flex">
-                            <a href="" target="_blank">
-                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
-                                    <span>Project Three</span>
-                                </div>
-                            </a>
-                        </div>
-                    </Tilt>
+                                <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#f07682] z-0 absolute"></div>
+                            </div>
+                        </a>
+                    </div>
+                </Tilt>
                     <Tilt>
                         <div class="mr-14 flex">
                             <a href="" target="_blank">
@@ -237,8 +240,8 @@
                             </a>
                         </div>
                     </Tilt>
-                </div>
-            </div>   
+                </div>    
+            </div>       
         </div>    
     <div id="contact" class="bg-[#1a171e] h-screen flex flex-col w-full">
         <div class="flex flex-col space-y-4 py-12 px-4 md:px-[125px] lg:px-[300px]">
@@ -453,6 +456,12 @@ button.grow_skew_forward:hover::after {
 
 .project-bg-two {
     background: url(../assets/project-bg-two.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-bg-three {
+    background: url(../assets/project-bg-three.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
