@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="mt-10 flex">
-                <button class="grow_skew_forward" v-on:click="scroll_contact">
+                <button class="grow_skew_forward" v-on:click="scroll_contact_home">
                     <a href="">
                         <span class="font-semibold text-white">Lets connect</span>
                     </a>
@@ -194,17 +194,18 @@
     </div>
     <div class="sticky_parent flex pl-4 md:pl-[125px] lg:pl-[300px]">
             <div class="sticky">
-                <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[1000px] lg:mx-auto">
-                    <Tilt max="10" speed="100">
-                        <div class="mr-14 flex">
-                            <a href="" target="_blank">
-                                <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
+                <div class="scroll_section pl-4 md:pl-[125px] md:mx-auto lg:pl-[1100px] lg:mx-auto">
+                    <div class="mr-14 flex">
+                        <a  href="" target="_blank">
+                            <div class="project">
+                                <div class="project-bg w-full h-full left-0 top-0 rounded-3xl z-10 absolute">
                                     <span>Project One</span>
-                                </div>
-                            </a>
-                        </div>
-                    </Tilt>
-                   <Tilt max="10" speed="100">
+                                </div> 
+                                <div class="w-full h-full left-0 top-0 rounded-3xl bg-[#f9aa6c] z-0 absolute"></div>
+                            </div>
+                        </a>
+                    </div>
+                   <Tilt max="10" speed="400">
                         <div class="mr-14 flex">
                             <a href="" target="_blank">
                                 <div class="project" style="background: linear-gradient(90deg, rgb(241, 70, 88) 0%, rgb(220, 37, 55) 100%);">
@@ -436,6 +437,13 @@ button.grow_skew_forward:hover::after {
   height: 25rem;
   width: 38rem;
   border-radius: 1.5rem;
+  position: relative;
+}
+
+.project-bg {
+    background: url(../assets/project-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .project span {
@@ -495,7 +503,7 @@ function transform (section) {
 }
 })
 
-function scroll_contact (event) {
+function scroll_contact_home (event) {
     document.getElementById("contact").scrollIntoView({behavior: 'smooth'});
 }
 </script>
