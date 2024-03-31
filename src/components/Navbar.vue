@@ -11,7 +11,7 @@
         </div>
       </div>
       <nav :class="isOpen ? 'flex transition-all duration-300 text-center pt-4' : 'hidden'">
-        <ul class="flex text-left flex-col space-y-4">
+        <ul class="flex justify-center text-left flex-col space-y-4">
             <li>
               <span class="text-white text-xl font-semibold leading-6 hover:text-[#6c63ff]" v-on:click="scroll_home">Home</span>
             </li>
