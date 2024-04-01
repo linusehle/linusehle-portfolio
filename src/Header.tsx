@@ -1,5 +1,3 @@
-import './assets/Animations.css' 
-
 function Header () {
     return (
         <header className="bg-[#120e16] h-screen flex items-center">
