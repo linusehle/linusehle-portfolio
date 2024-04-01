@@ -71,8 +71,6 @@ button {
     padding: 0.85em 0.75em;
     display: block;
   }
-  
-  
   button[class^="grow"]::after {
     transition: all 0.4s ease;
   }
