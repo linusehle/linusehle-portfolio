@@ -1,0 +1,53 @@
+.animated-text {
+
+    span { position: relative; }
+
+    span::before {
+        content: "Youtuber";
+        color: #aaa;
+        animation: words 20s infinite;
+    }
+
+    span::after {
+        content: "";
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 110%;
+        background-color: #120e16;
+        right: -8px;
+        animation: cursor .8s infinite, typing 24s steps(14) infinite;
+    }
+
+    @keyframes cursor {
+        to {
+            border-left: 2px solid #ff7f5000;
+        }
+    }
+
+    @keyframes words {
+        0%,20%{
+            content: "A passionate developer";
+        }
+        21%,40%{
+            content: "I create pleasing and modern software";
+        }
+        41%,60%{
+            content: "change later";
+        }
+        61%,80%{
+            content: "change later";
+        }
+        81%,100%{
+            content: "I build things with code and heart";
+        }
+    }
+    
+    @keyframes typing {
+        10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+            width: 0;
+        }
+        5%,20%,25%,40%,45%,60%,65%,80%,85%{
+            width: calc(100% + 8px);
+        }
+    }
+}
