@@ -51,3 +51,53 @@
         }
     }
 }
+
+$green: #137d6f;
+$grey: #313131;
+
+.button {
+  background: transparent;
+  border: 3px solid #8b31ff;
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: relative;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: 0.4s ease;
+  z-index: 1;
+  &:before,
+  &:after {
+    background: $grey;
+    transition: 0.3s ease;
+    content: '';
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.diagonal-tl-br-out {
+  background: #8b31ff;
+  &:before,
+  &:after {
+    background: #120e16;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg);
+    width: 175%;
+  }
+  &:before {
+    left: -120%;
+  }
+  &:after {
+    right: -120%;
+  }
+  &:hover {
+    &:before,
+    &:after {
+      width: 100%;
+    }
+  }
+}
+
