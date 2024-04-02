@@ -82,11 +82,7 @@ function Header () {
                     </div>
                 </div>
                 <div className='mt-10 flex'>
-                    <button className='grow-skew_forward text-[1.7rem] py-2 px-4'>
-                        <a href=''>
-                            <span className='font-semibold text-white'>Let's connect</span>
-                        </a>
-                    </button>
+                    <a className="button diagonal-tl-br-out rounded-[10px] font-semibold " href="#">Let's connect</a>
                 </div>
             </div>
         </header>
