@@ -101,3 +101,27 @@ $grey: #313131;
   }
 }
 
+.emphasize {
+  background: none;
+  text-decoration: inherit;
+  font-family: system-ui;
+  font-size: 1rem;
+  color: white;  
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-radius: 10px;
+  border-image-slice: 1;
+  border-width: 8px;
+}
+
+.border-gradient-green {
+  border-image-source: linear-gradient(90deg, #9f55ff, #7000ff)
+}
+
+.only-top {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
