@@ -7,8 +7,8 @@ function Header () {
                 <div>
                     <span className="font-medium text-lg uppercase tracking-wide text-[#8b31ff]">Hi, my name is</span>
                 </div>
-                <div className="flex space-x-2">
-                    <span className="font-bold text-6xl text-white border-b-[7px] emphasize">Linus</span>
+                <div className="flex space-x-4">
+                    <span className="emphasize border-gradient border-gradient-green font-bold text-6xl only-top">Linus</span>
                     <span className="font-bold text-6xl text-white">Ehle</span>
                 </div>
                 <div className="mt-6">
