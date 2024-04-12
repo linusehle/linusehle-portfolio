@@ -1,6 +1,8 @@
+import "./footer.scss";
+
 function Footer () {
     return (
-        <footer className="bg-[#120e16]" style={{backgroundImage: "linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);" }}>
+        <footer>
             <div className="flex flex-col pt-[75px]">
                 <div className="flex justify-center mb-12">
                     <span className="text-white font-bold font-mono text-3xl">Feel free to contact me!</span>
@@ -71,6 +73,7 @@ function Footer () {
                     </div>
                 </div>
             </div>
+            <img src="src/assets/footer-curve.svg" className="w-full -rotate-180" />
         </footer>
     );
 }
