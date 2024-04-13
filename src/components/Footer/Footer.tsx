@@ -73,7 +73,7 @@ function Footer () {
                     </div>
                 </div>
             </div>
-            <img src="src/assets/footer-curve.svg" className="w-full -rotate-180" />
+            <img src="src/assets/footer-curve.svg" className="w-full rotate-180" />
         </footer>
     );
 }
