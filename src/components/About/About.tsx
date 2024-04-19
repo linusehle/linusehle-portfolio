@@ -11,7 +11,7 @@ function About () {
           WebkitTextFillColor: "transparent"
         }}
       >
-        Meine Projekte
+        Über mich
       </h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                         Alles was DU wissen musst
@@ -42,11 +42,11 @@ function About () {
                   clipRule="evenodd"
                 />
               </svg>
-                                Web-Design   
+                                Erfahrung
                             </dt>
                             <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                                 <p className="flex-auto">
-                                    Hochwertiges und benutzerfreundliches Design für optimales Nutererlebnis
+                                    Über 4 Jahre lange Erfahrung im Programmieren
                                 </p>
                             </dd>
                         </div>
@@ -67,11 +67,11 @@ function About () {
                   clipRule="evenodd"
                 />
               </svg>
-                                Suchmaschienenoptimierung
+                                Zufriedenheit
                             </dt>
                             <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                                 <p className="flex-auto">
-                                    SEO gemäß Google-Standarts für langfristige Erfolge.
+                                    Über 50+ absolvierte zufriedene Kunden
                                 </p>
                             </dd>
                         </div>
@@ -92,11 +92,11 @@ function About () {
                   clipRule="evenodd"
                 />
               </svg>
-                                Web-Entwicklung 
+              Professionalität
                             </dt>
                             <dd className="mt-4 flex flex-auto flex-col text-base leading-7">
                                 <p className="flex-auto">
-                                    Hochwertige und moderne Entwicklung Ihrer neuen Website
+                                    Hochwertige und moderne Entwicklung
                                 </p>
                             </dd>
                         </div>

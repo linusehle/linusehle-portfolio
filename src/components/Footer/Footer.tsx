@@ -110,7 +110,7 @@ function Footer () {
               <li>
                 <a
                   className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
-                  href="https://twitter.com/FerbionWeb"
+                  href="https://twitter.com/ehlelinus"
                   target="_blank"
                 >
                   X / Twitter
