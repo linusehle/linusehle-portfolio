@@ -17,10 +17,10 @@ function About () {
                         Alles was DU wissen musst
                     </p>
                     <p className="mt-6 text-lg leading-8 text-zinc-400 text-justify">
-                        Wir sind eine Web-Agentur bestehend aus zwei Personen, die professionelle Websites nicht nur,
-                        designet und SEO maximiert, sondern auch Websites entwickelt. Bei uns haben Sie die Möglichkeit,
-                        eine individuelle gestaltete Website zu einem fairen Preis erstellen zu lassen. Unsere Lösungen
-                        sind zudem auf Nachhaltigkeit und Zukunfstfähigkeit ausgerichtet.
+                        Willkommen auf meiner Webseite. Ich bin Linus und programmiere hobbymäßig. 
+                        Zurzeit mache ich noch meinen Schulabschluss und will in der Zukunft auch als Programmierer
+                        arbeiten beziehungsweise mich in diesem Bereich selbständig machen. Schaue dich gerne
+                        auf meiner Webseite um, um über meine Kompetenzen und mehr zu Erfahren.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
