@@ -66,7 +66,7 @@ function Skills () {
               <h3 className="">Weitere</h3>
             </dt>
             <dd className="mt-2 text-zinc-400 hover:no-underline">
-              C/C++, Java und Rust
+              C/C++, Java, Rust und Solidity (Web3)
             </dd>
           </div>
         </a>
