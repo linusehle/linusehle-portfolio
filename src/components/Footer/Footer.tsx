@@ -83,37 +83,10 @@ function Footer () {
               <li>
                 <a
                   className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
-                  href="https://www.instagram.com/ferbion_web/ target="
+                  href=" target="
                   target="_blank"
                 >
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
-                  href="https://www.youtube.com/channel/UC-UchX30BaknW8U25JiSgDA"
-                  target="_blank"
-                >
-                  Youtube
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
-                  href="https://www.tiktok.com/@ferbionweb"
-                  target="_blank"
-                >
-                  Tiktok
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
-                  href="https://twitter.com/ehlelinus"
-                  target="_blank"
-                >
-                  X / Twitter
+                  Email / Mail
                 </a>
               </li>
               <li>
@@ -122,7 +95,34 @@ function Footer () {
                   href=""
                   target="_blank"
                 >
-                  Facebook
+                  Linkedin
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
+                  href=""
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
+                  href="https://twitter.com/ehlelinus"
+                  target="_blank"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
+                  href=""
+                  target="_blank"
+                >
+                  Twitter / X
                 </a>
               </li>
             </ul>
