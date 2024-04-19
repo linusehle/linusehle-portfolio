@@ -35,28 +35,28 @@ function Projects () {
             </div>
           </div>
         </div>
-        <div className="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
-          <div className="hidden lg:block">
+        <div className="flex flex-col mt-6 space-y-6 md:flex-row md:space-y-0 lg:mt-0 md:space-x-6 overscroll-x-auto lg:pl-16">
+          <div className="flex justify-center md:block">
             <img
-              className="rounded-xl"
-              height={700}
-              width={225}
+              className="rounded-xl h-[150px] md:h-auto"
+              // height={700}
+              // width={225}
               src="src\assets\stonks.png"
             />
           </div>
-          <div className="hidden lg:block">
+          <div className="flex justify-center md:block">
             <img
-              className="rounded-xl"
-              height={700}
-              width={225}
+              className="rounded-xl h-[150px] md:h-auto"
+              // height={700}
+              // width={225}
               src="src\assets\stonks.png"
             />
           </div>
-          <div className="hidden lg:block">
+          <div className="flex justify-center md:block">
             <img
-              className="rounded-xl"
-              height={700}
-              width={225}
+              className="rounded-xl h-[150px] md:h-auto"
+              // height={700}
+              // width={225}
               src="src\assets\stonks.png"
             />
           </div>
@@ -72,28 +72,28 @@ function Projects () {
             <div className="mt-2">Beschreibung zu Projekt Zwei</div>
           </div>
         </div>
-        <div className="lg:flex lg:space-x-6 space-x-0 overscroll-x-auto pl-16">
-          <div className="hidden lg:block">
+        <div className="flex mt-6 flex-col space-y-6 md:flex-row md:space-y-0 lg:mt-0 md:space-x-6 overscroll-x-auto lg:pl-16">
+          <div className="flex justify-center md:block">
             <img
-              className="rounded-xl"
-              height={700}
-              width={225}
+              className="rounded-xl h-[150px] md:h-auto"
+              // height={700}
+              // width= "80%"
               src="src\assets\stonks.png"
             />
           </div>
-          <div className="hidden lg:block">
+          <div className="flex justify-center md:block">
             <img
-              className="rounded-xl"
-              height={700}
-              width={225}
+              className="rounded-xl h-[150px] md:h-auto"
+              // height={700}
+              // width= "80%"
               src="src\assets\stonks.png"
             />
           </div>
-          <div className="hidden lg:block">
+          <div className="flex justify-center md:block">
             <img
-              className="rounded-xl"
-              height={700}
-              width={225}
+              className="rounded-xl h-[150px] md:h-auto"
+              // height={700}
+              // width= "80%"
               src="src\assets\stonks.png"
             />
           </div>
