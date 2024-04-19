@@ -12,7 +12,7 @@ function Skills () {
           WebkitTextFillColor: "transparent"
         }}
       >
-        Meine Projekte
+        Kompetenzen
       </span>
         <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Meine Kompetenzen
@@ -31,10 +31,10 @@ function Skills () {
                                     2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
                                     </path>
                                 </svg>
-              <h3 className="">Web-Development</h3>
+              <h3 className="">Frontend-Entwicklung</h3>
             </dt>
             <dd className="mt-2 text-zinc-400 hover:no-underline">
-              Modern, user-friendly designs that are customized to your wishes.
+              Html, Css, Sass/Scss, Javascript/Typescript, React-JS und Tailwind-Css
             </dd>
           </div>
         </a>
@@ -47,27 +47,10 @@ function Skills () {
                                     2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
                                     </path>
                                 </svg>
-              <h3 className="">Searchengine optimization</h3>
+              <h3 className="">Backend-Entwicklung</h3>
             </dt>
             <dd className="mt-2 text-zinc-400 hover:no-underline">
-              Optimization of your website for search engines to increase online
-              visibility.
-            </dd>
-          </div>
-        </a>
-        <a>
-          <div className="relative pl-9 group">
-            <dt className="font-semibold">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="absolute left-0 top-1 h-5 w-5 text-[#7000ff]">
-                                    <path d="M2 4.25A2.25 2.25 0 014.25 2h2.5A2.25 2.25 0 019 4.25v2.5A2.25 2.25 0 016.75 9h-2.5A2.25 2.25 0 012 6.75v-2.5zM2 13.25A2.25 2.25 0 014.25
-                                    11h2.5A2.25 2.25 0 019 13.25v2.5A2.25 2.25 0 016.75 18h-2.5A2.25 2.25 0 012 15.75v-2.5zM11 4.25A2.25 2.25 0 0113.25 2h2.5A2.25 2.25 0 0118 4.25v2.5A2.25
-                                    2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
-                                    </path>
-                                </svg>
-              <h3 className="">Web-Development</h3>
-            </dt>
-            <dd className="mt-2 text-zinc-400 hover:no-underline">
-              High-quality and modern development of your new website.
+              Next-JS und PHP
             </dd>
           </div>
         </a>
@@ -83,7 +66,7 @@ function Skills () {
               <h3 className="">Weitere</h3>
             </dt>
             <dd className="mt-2 text-zinc-400 hover:no-underline">
-              Support with the uploud of the website
+              C/C++, Java und Rust
             </dd>
           </div>
         </a>
