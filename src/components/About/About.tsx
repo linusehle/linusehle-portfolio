@@ -1,6 +1,6 @@
 function About () {
     return (
-        <div className="pt-16 sm:pt-32 bg-[#000000] text-white">
+        <div className="pt-16 sm:pt-32 bg-[#000000] text-white" id="about">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-3xl lg:text-center">
                 <h2
