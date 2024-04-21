@@ -1,13 +1,9 @@
-import './projects.scss'
-
-function Projects () {
+function Skills () {
     return (
-        <div
-  className="bg-[#000000] text-white overflow-hidden py-14 pb-20"
-  id="work"
->
-  <div className="mx-auto px-4 py-5 sm:px-6 max-w-7xl">
-    <div className="max-w-3xl">
+      <div className="bg-[#000000] py-24 sm:py-32 text-white" id="skills">
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <div>
       <span
         className="font-semibold text-xl"
         style={{
@@ -16,94 +12,70 @@ function Projects () {
           WebkitTextFillColor: "transparent"
         }}
       >
-        Meine Projekte
+        Kompetenzen
       </span>
-      <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-        Portfolio
-      </p>
-    </div>
-    <div className="mt-8 space-y-16 border-t border-gray-200 pt-10 sm:mt-10">
-      <a
-        className="group mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 lg:flex items-center"
-        href=""
-      >
-        <div>
-          <div className="text-xl font-bold">Projekt Eins</div>
-          <div className="text-zinc-400 w-72">
-            <div className="mt-2">
-              Beschreibung zu Projekt Eins
-            </div>
+        <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+          Meine Kompetenzen
+        </p>
+        <p className="mt-6 text-base leading-7 text-zinc-400">
+          Ich mag es immer neue Dinge zu lernen und mich weiterzuentwickeln.
+        </p>
+      </div>
+      <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-2 lg:gap-y-16">
+        <a>
+          <div className="relative pl-9 group">
+            <dt className="font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="absolute left-0 top-1 h-5 w-5 text-[#7000ff]">
+                                    <path d="M2 4.25A2.25 2.25 0 014.25 2h2.5A2.25 2.25 0 019 4.25v2.5A2.25 2.25 0 016.75 9h-2.5A2.25 2.25 0 012 6.75v-2.5zM2 13.25A2.25 2.25 0 014.25
+                                    11h2.5A2.25 2.25 0 019 13.25v2.5A2.25 2.25 0 016.75 18h-2.5A2.25 2.25 0 012 15.75v-2.5zM11 4.25A2.25 2.25 0 0113.25 2h2.5A2.25 2.25 0 0118 4.25v2.5A2.25
+                                    2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
+                                    </path>
+                                </svg>
+              <h3 className="">Frontend-Entwicklung</h3>
+            </dt>
+            <dd className="mt-2 text-zinc-400 hover:no-underline">
+              Html, Css, Sass/Scss, Javascript/Typescript, React-JS und Tailwind-Css
+            </dd>
           </div>
-        </div>
-        <div className="flex flex-col mt-6 space-y-6 md:flex-row md:space-y-0 lg:mt-0 md:space-x-6 overscroll-x-auto lg:pl-16">
-          <div className="flex justify-center md:block">
-            <img
-              className="rounded-xl h-[150px] md:h-auto"
-              // height={700}
-              // width={225}
-              src="src\assets\stonks.png"
-            />
+        </a>
+        <a>
+          <div className="relative pl-9 group">
+            <dt className="font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="absolute left-0 top-1 h-5 w-5 text-[#7000ff]">
+                                    <path d="M2 4.25A2.25 2.25 0 014.25 2h2.5A2.25 2.25 0 019 4.25v2.5A2.25 2.25 0 016.75 9h-2.5A2.25 2.25 0 012 6.75v-2.5zM2 13.25A2.25 2.25 0 014.25
+                                    11h2.5A2.25 2.25 0 019 13.25v2.5A2.25 2.25 0 016.75 18h-2.5A2.25 2.25 0 012 15.75v-2.5zM11 4.25A2.25 2.25 0 0113.25 2h2.5A2.25 2.25 0 0118 4.25v2.5A2.25
+                                    2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
+                                    </path>
+                                </svg>
+              <h3 className="">Backend-Entwicklung</h3>
+            </dt>
+            <dd className="mt-2 text-zinc-400 hover:no-underline">
+              Next-JS und PHP
+            </dd>
           </div>
-          <div className="flex justify-center md:block">
-            <img
-              className="rounded-xl h-[150px] md:h-auto"
-              // height={700}
-              // width={225}
-              src="src\assets\stonks.png"
-            />
+        </a>
+        <a>
+          <div className="relative pl-9 group">
+            <dt className="font-semibold">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" className="absolute left-0 top-1 h-5 w-5 text-[#7000ff]">
+                                    <path d="M2 4.25A2.25 2.25 0 014.25 2h2.5A2.25 2.25 0 019 4.25v2.5A2.25 2.25 0 016.75 9h-2.5A2.25 2.25 0 012 6.75v-2.5zM2 13.25A2.25 2.25 0 014.25
+                                    11h2.5A2.25 2.25 0 019 13.25v2.5A2.25 2.25 0 016.75 18h-2.5A2.25 2.25 0 012 15.75v-2.5zM11 4.25A2.25 2.25 0 0113.25 2h2.5A2.25 2.25 0 0118 4.25v2.5A2.25
+                                    2.25 0 0115.75 9h-2.5A2.25 2.25 0 0111 6.75v-2.5zM15.25 11.75a.75.75 0 00-1.5 0v2h-2a.75.75 0 000 1.5h2v2a.75.75 0 001.5 0v-2h2a.75.75 0 000-1.5h-2v-2z">
+                                    </path>
+                                </svg>
+              <h3 className="">Weitere</h3>
+            </dt>
+            <dd className="mt-2 text-zinc-400 hover:no-underline">
+              C/C++, Java, Rust und Solidity (Web3)
+            </dd>
           </div>
-          <div className="flex justify-center md:block">
-            <img
-              className="rounded-xl h-[150px] md:h-auto"
-              // height={700}
-              // width={225}
-              src="src\assets\stonks.png"
-            />
-          </div>
-        </div>
-      </a>
-      <a
-        className="group mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 lg:flex items-center"
-        href=""
-      >
-        <div>
-          <div className="text-xl font-bold">Project Zwei</div>
-          <div className="text-zinc-400 w-72">
-            <div className="mt-2">Beschreibung zu Projekt Zwei</div>
-          </div>
-        </div>
-        <div className="flex mt-6 flex-col space-y-6 md:flex-row md:space-y-0 lg:mt-0 md:space-x-6 overscroll-x-auto lg:pl-16">
-          <div className="flex justify-center md:block">
-            <img
-              className="rounded-xl h-[150px] md:h-auto"
-              // height={700}
-              // width= "80%"
-              src="src\assets\stonks.png"
-            />
-          </div>
-          <div className="flex justify-center md:block">
-            <img
-              className="rounded-xl h-[150px] md:h-auto"
-              // height={700}
-              // width= "80%"
-              src="src\assets\stonks.png"
-            />
-          </div>
-          <div className="flex justify-center md:block">
-            <img
-              className="rounded-xl h-[150px] md:h-auto"
-              // height={700}
-              // width= "80%"
-              src="src\assets\stonks.png"
-            />
-          </div>
-        </div>
-      </a>
+        </a>
+      </dl>
     </div>
   </div>
 </div>
 
-    );
+    )
 }
 
-export default Projects 
+export default Skills
