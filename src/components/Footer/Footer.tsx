@@ -156,13 +156,6 @@ function Footer () {
                       Impressum
                     </span>
                   </li>
-                  <li>
-                    <span
-                    className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
-                    >
-                      Datenschutz
-                    </span>
-                  </li>
                 </ul>
               </div>
             </div>
