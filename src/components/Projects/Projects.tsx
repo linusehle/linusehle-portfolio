@@ -6,9 +6,9 @@ function Projects () {
           <span
           className="font-semibold text-xl"
           style={{
-            background: "webkit-linear-gradient(90deg, #9f55ff, #7000ff)",
+            background: "-webkit-linear-gradient(90deg, #9f55ff, #7000ff)",
             backgroundClip: "text",
-            WebkitTextFillColor: 'transparent'
+            WebkitTextFillColor: "transparent"
           }}
           >
             Meine Projekte
