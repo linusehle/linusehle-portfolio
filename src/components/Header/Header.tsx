@@ -215,7 +215,7 @@ function Header () {
               <span
               className="text-lg font-semibold leading-6 space-x-2 hover:text-[#7000ff] transition cursor-pointer"
               >
-                Weitere Infomrationen
+                Weitere Informationen
                 <span aria-hidden="true">→</span>
               </span>
             </div>
