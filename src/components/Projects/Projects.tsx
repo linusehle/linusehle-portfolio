@@ -1,3 +1,5 @@
+import { motion, useScroll } from "framer-motion";
+
 function Projects () {
   return (
     <div className="bg-[#000000] text-white overflow-hidden py-14 pb-20" id="work">
