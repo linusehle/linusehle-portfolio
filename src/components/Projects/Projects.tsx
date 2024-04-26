@@ -1,4 +1,4 @@
-import { motion, useScroll } from "framer-motion";
+// import { motion, useScroll } from "framer-motion";
 
 function Projects () {
   return (
