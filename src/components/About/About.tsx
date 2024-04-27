@@ -113,7 +113,6 @@ function About () {
 								</p>
 							</dd>
 						</div>
-
 					</dl>
 				</div>
 			</div>
