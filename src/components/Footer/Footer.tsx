@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer () {
   const scrollStart = () => {
     document.getElementById("start")?.scrollIntoView({behavior: 'smooth'});
@@ -150,11 +152,12 @@ function Footer () {
                 <h3 className="text-sm font-semibold leading-6">Rechtliches</h3>
                 <ul className="mt-6 space-y-4" role="list">
                   <li>
-                    <span
+                    <Link 
+                    to={"/impressum"}
                     className="text-sm leading-6 text-zinc-400 hover:text-zinc-300 transition"
                     >
                       Impressum
-                    </span>
+                    </Link>
                   </li>
                 </ul>
               </div>
