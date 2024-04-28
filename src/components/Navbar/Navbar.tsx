@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar () {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,11 +36,11 @@ function Navbar () {
       </div>
       <div className={`w-full block ${isOpen ? "block" : "hidden"}`}>
         <div>
-          <a 
-          href="#" 
+          <Link 
+          to={"/"} 
           className="block pt-4 text-zinc-300 mr-4">
             Start
-          </a>
+          </Link>
           <a 
           href="#" 
           className="block pt-4 text-zinc-300 mr-4">
