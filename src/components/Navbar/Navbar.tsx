@@ -21,7 +21,7 @@ function Navbar () {
   }
 
   return (
-    <nav className="flex items-center flex-wrap p-6 fixed bg-[#000000] text-white z-50">
+    <nav className="flex items-center flex-wrap p-6 fixed bg-[#000000] text-white z-50 select-none">
       <div className="block ">
         <button
         onClick={() => setIsOpen(!isOpen)}

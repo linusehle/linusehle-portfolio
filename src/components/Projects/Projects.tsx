@@ -2,7 +2,7 @@
 
 function Projects () {
   return (
-    <div className="bg-[#000000] text-white overflow-hidden py-14 pb-20" id="work">
+    <div className="bg-[#000000] text-white select-none overflow-hidden py-14 pb-20" id="work">
       <div className="mx-auto px-4 py-5 sm:px-6 max-w-7xl">
         <div className="max-w-3xl">
           <span
