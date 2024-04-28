@@ -20,7 +20,7 @@ function Header () {
   }, [typedEl, targetSection]);
 
   return (
-    <div className="bg-[#000000] text-white" id="start">
+    <div className="bg-[#000000] text-white select-none" id="start">
       <div className="relative">
         <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
           <div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
