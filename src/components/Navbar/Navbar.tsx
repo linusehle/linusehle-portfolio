@@ -4,9 +4,25 @@ import { Link } from "react-router-dom";
 function Navbar () {
   const [isOpen, setIsOpen] = useState(false);
 
+  const scrollStart = () => {
+    document.getElementById("start")?.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const scrollAbout = () => {
+    document.getElementById("about")?.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const scrollSkills = () => {
+    document.getElementById("skills")?.scrollIntoView({behavior: 'smooth'});
+  }
+
+  const scrollWork = () => {
+    document.getElementById("work")?.scrollIntoView({behavior: 'smooth'});
+  }
+
   return (
-    <nav className="flex items-center flex-wrap p-6 bg-[#000000] text-white">
-      <div className="block">
+    <nav className="flex items-center flex-wrap p-6 fixed bg-[#000000] text-white z-50">
+      <div className="block ">
         <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center py-2 rounded text-black-500 hover:text-black-400"
@@ -38,28 +54,28 @@ function Navbar () {
         <div>
           <Link 
           to={"/"} 
-          className="block pt-4 text-zinc-300 mr-4">
+          className="block pt-4 text-zinc-300 mr-4"
+          onClick={scrollStart}
+          >
             Start
           </Link>
           <a 
-          href="#" 
-          className="block pt-4 text-zinc-300 mr-4">
+          className="block pt-4 text-zinc-300 mr-4 cursor-pointer "
+          onClick={scrollAbout}
+          >
             Über mich
           </a>
           <a 
-          href="#" 
-          className="block pt-4 text-zinc-300 mr-4">
+          className="block pt-4 text-zinc-300 mr-4 cursor-pointer"
+          onClick={scrollSkills}
+          >
             Kompetenzen
           </a>
           <a 
-          href="#" 
-          className="block pt-4 text-zinc-300 mr-4">
+          className="block pt-4 text-zinc-300 mr-4 cursor-pointer"
+          onClick={scrollWork}
+          >
             Portfolio
-          </a>
-          <a 
-          href="#" 
-          className="block pt-4 text-zinc-300 mr-4">
-            Kontakt
           </a>
         </div>
       </div>
