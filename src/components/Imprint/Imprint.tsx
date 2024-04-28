@@ -1,4 +1,6 @@
 function Imprint () {
+  window.scrollTo(0, 0);
+
   return (
     <div className="bg-[#000000] text-white py-16">
       <div className="container mx-auto ">
