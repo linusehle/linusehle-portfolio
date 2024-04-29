@@ -2,7 +2,7 @@ function Imprint () {
   window.scrollTo(0, 0);
 
   return (
-    <div className="bg-[#000000] text-white py-1 select-none">
+    <div className="bg-[#000000] text-white py-16 select-none">
       <div className="container mx-auto ">
         <h1
         className="text-4xl font-semibold mb-4" 
