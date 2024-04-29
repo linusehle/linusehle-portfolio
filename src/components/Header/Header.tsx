@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import './header.scss'
+import { Link } from "react-router-dom";
 
 function Header () {
   const typedEl = useRef(null);
@@ -18,6 +19,10 @@ function Header () {
     const typed = new Typed(typedEl.current, options);        
     return () => typed.destroy();
   }, [typedEl, targetSection]);
+
+  const scrollAbout = () => {
+    document.getElementById("about")?.scrollIntoView({behavior: 'smooth'});
+  }
 
   return (
     <div className="bg-[#000000] text-white select-none" id="start">
@@ -207,16 +212,23 @@ function Header () {
               </a>
             </div>
             <div className="mt-10 flex items-center gap-x-6">
-              <span
-              className="btn-header rounded-xl p-2 text-lg px-3 text-white font-semibold"
-              >
-                Lass uns in Kontakt treten
-              </span>
+              <Link to={"/contact"}>
+                <span
+                className="btn-header rounded-xl p-2 text-lg px-3 text-white font-semibold"
+                >
+                  Lass uns in Kontakt treten
+                </span>
+              </Link>
               <span
               className="text-lg font-semibold leading-6 space-x-2 hover:text-[#7000ff] transition cursor-pointer"
+              onClick={scrollAbout}
               >
                 Weitere Informationen
-                <span aria-hidden="true">→</span>
+                <span 
+                aria-hidden="true"
+                >
+                  →
+                </span>
               </span>
             </div>
           </div>
