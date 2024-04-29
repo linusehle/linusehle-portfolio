@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+import { useLocation } from "react-router-dom";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navbar () {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +22,9 @@ function Navbar () {
   const scrollWork = () => {
     document.getElementById("work")?.scrollIntoView({behavior: 'smooth'});
   }
+
+  const location = useLocation();
+  console.log(location.pathname)
 
   return (
     <nav className="flex items-center flex-wrap p-6 fixed bg-[#000000] text-white z-50 select-none">
@@ -59,12 +65,19 @@ function Navbar () {
           >
             Start
           </Link>
-          <a 
+          <Link    
           className="block pt-4 text-zinc-300 mr-4 cursor-pointer "
           onClick={scrollAbout}
+          to={"/#about"}
           >
             Über mich
-          </a>
+          </Link>
+          <AnchorLink
+          className="pt-6"
+          href="#about"
+          >
+            Über mich 2
+          </AnchorLink>
           <a 
           className="block pt-4 text-zinc-300 mr-4 cursor-pointer"
           onClick={scrollSkills}
