@@ -1,10 +1,38 @@
+// import "./about.scss"
+import { gsap, Linear } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import { useRef, useEffect } from "react";
+
+gsap.registerPlugin(useGSAP, ScrollTrigger);
+
 function About () {
+
+  // const targetSection = useRef<HTMLDivElement>(null);
+
+  // useEffect(() => {
+  //   const revealTl = gsap.timeline({ defaults: { ease: Linear.easeNone } });
+  //   revealTl.from(
+  //     targetSection.current.querySelectorAll(".seq"),
+  //     { opacity: 0, duration: 0.5, stagger: 0.5 },
+  //     "<"
+  //   );
+
+  //   ScrollTrigger.create({
+  //     trigger: targetSection.current.querySelector(".skills-wrapper"),
+  //     start: "100px bottom",
+  //     end: `center center`,
+  //     animation: revealTl,
+  //     scrub: 0,
+  //   });
+  // }, [targetSection]);
+
 	return (
 		<div className="bg-[#000000] text-white select-none pt-16 sm:pt-32" id="about">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<div className="mx-auto max-w-3xl lg:text-center">
+				<div className="mx-auto max-w-3xl lg:text-center skills-wrapper">
 					<h2
-					className="font-semibold text-xl"
+					className="font-semibold text-xl seq"
 					style={{
 						background: "-webkit-linear-gradient(90deg, #9f55ff, #7000ff)",
 						backgroundClip: "text",
@@ -14,12 +42,12 @@ function About () {
 						Über mich
 					</h2>
 					<p 
-					className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl"
+					className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl seq"
 					>
 						Alles was DU wisen musst
 					</p>
 					<p
-					className="mt-6 text-lg leading-8 text-zinc-400 text-justify"
+					className="mt-6 text-lg leading-8 text-zinc-400 text-justify opacity-0 seq"
 					>
 						Willkommen auf meiner Webseite. Ich bin Linus und programmiere hobbymäßig. 
             Zurzeit mache ich noch meinen Schulabschluss und will in der Zukunft auch als Programmierer
