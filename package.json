@@ -2,27 +2,32 @@
   "name": "linusehle-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/linusehle/linusehle-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && rm -rf build && yarn build-sass",
-    "build-sass": "node-sass --output-style expanded src/index.scss ./build/index.css  && yarn  build-autoprefix",
+    "build-sass": "sass --output-style expanded src/index.scss ./build/index.css  && yarn  build-autoprefix",
     "build-autoprefix": "postcss --use autoprefixer --map --output ./build/index.css ./build/index.css",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "framer-motion": "^11.1.7",
     "gsap": "^3.12.5",
+    "python": "^0.0.4",
     "react": "^18.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
     "react-router-hash-link": "^2.4.3",
-    "sass": "^1.72.0",
-    "typed.js": "^2.1.0"
+    "sass": "^1.77.0",
+    "typed.js": "^2.1.0",
+    "vi": "^1.0.0"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.29",
@@ -37,6 +42,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
