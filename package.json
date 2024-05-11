@@ -2,7 +2,7 @@
   "name": "linusehle-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://linusehle.github.io/linusehle-portfolio",
+  "homepage": "https://github.com/linusehle/linusehle-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
