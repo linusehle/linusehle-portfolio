@@ -8,8 +8,8 @@
     "dev": "vite",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
-    "build": "tsc && vite build && rm -rf build && yarn build-sass",
-    "build-sass": "node-sass --output-style expanded src/index.scss ./build/index.css  && yarn  build-autoprefix",
+    "build": "tsc && vite build && rm -rf build",
+    "build-sass": "node-sass --output-style expanded src/index.scss ./build/index.css  && yarn build-autoprefix",
     "build-autoprefix": "postcss --use autoprefixer --map --output ./build/index.css ./build/index.css",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
