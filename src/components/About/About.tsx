@@ -1,8 +1,8 @@
 // import "./about.scss"
-import { gsap, Linear } from "gsap";
+// import { gsap, Linear } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import { useRef, useEffect } from "react";
+// import { useRef, useEffect } from "react";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
